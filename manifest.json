@@ -1,0 +1,26 @@
+{
+  "name": "VocabMaster — Học từ vựng tiếng Anh",
+  "short_name": "VocabMaster",
+  "description": "Học từ vựng tiếng Anh hiệu quả với phương pháp lặp lại ngắt quãng (FSRS)",
+  "lang": "vi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%230F172A'/%3E%3Ctext x='96' y='130' font-size='110' text-anchor='middle'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='108' fill='%230F172A'/%3E%3Ctext x='256' y='350' font-size='300' text-anchor='middle'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
