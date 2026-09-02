@@ -1,12 +1,16 @@
 'use strict';
 
-const CACHE_NAME = 'vocabmaster-v1.0.0';
+const CACHE_NAME = 'vocabmaster-v1.4.0';
 const STATIC_ASSETS = [
   './',
   './index.html',
   './app.js',
   './style.css',
   './manifest.json',
+  './public/logo.png',
+  './data/oxford-essential.json',
+  './data/toeic-business.json',
+  './data/oxford-3000-vi.json',
 ];
 
 self.addEventListener('install', event => {

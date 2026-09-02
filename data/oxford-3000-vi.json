@@ -1,0 +1,3962 @@
+[
+  {
+    "word": "improve",
+    "ipa": "/ɪmˈpɹuːv/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Làm cho (cái gì đó) tốt hơn; tăng giá trị hoặc năng suất (của cái gì đó).",
+    "meaning_en": "To make (something) better; to increase the value or productivity (of something).",
+    "example": "Buying more servers would improve performance.",
+    "cefr": "B1"
+  },
+  {
+    "word": "achieve",
+    "ipa": "/əˈtʃiːv/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để thành công trong một cái gì đó, bây giờ đặc biệt là trong kết quả học tập.",
+    "meaning_en": "To succeed in something, now especially in academic performance.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "consider",
+    "ipa": "/kənˈsɪdə/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để suy nghĩ một cách nghiêm túc",
+    "meaning_en": "To think about seriously.",
+    "example": "Consider that we’ve had three major events and the year has hardly begun.",
+    "cefr": "B1"
+  },
+  {
+    "word": "decision",
+    "ipa": "/dɪˈsɪʒən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động quyết định.",
+    "meaning_en": "The act of deciding.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "opportunity",
+    "ipa": "/ˌɒp.əˈtjuː.nɪ.tɪ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Cơ hội thăng tiến, tiến bộ hoặc lợi nhuận.",
+    "meaning_en": "A chance for advancement, progress or profit.",
+    "example": "The world is full of opportunities and it's up to me to see them and pursue them.",
+    "cefr": "B1"
+  },
+  {
+    "word": "challenge",
+    "ipa": "/ˈtʃæl.əndʒ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cuộc đối đầu; một thách thức.",
+    "meaning_en": "A confrontation; a dare.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "environment",
+    "ipa": "/-mɪnt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Môi trường xung quanh và ảnh hưởng đến một mục quan tâm cụ thể.",
+    "meaning_en": "The surroundings of, and influences on, a particular item of interest.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "knowledge",
+    "ipa": "/ˈnɒlɪdʒ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Thực tế là biết về một cái gì đó; hiểu biết chung hoặc quen thuộc với một chủ đề, địa điểm, tình huống, v.v.",
+    "meaning_en": "The fact of knowing about something; general understanding or familiarity with a subject, place, situation etc.",
+    "example": "His knowledge of Iceland was limited to what he'd seen on the Travel Channel.",
+    "cefr": "B1"
+  },
+  {
+    "word": "experience",
+    "ipa": "/ɪkˈspɪə.ɹɪəns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Ảnh hưởng đến phán đoán hoặc cảm xúc được tạo ra bởi bất kỳ sự kiện nào, dù là chứng kiến hay tham gia; ấn tượng cá nhân và trực tiếp trái ngược với mô tả hoặc tưởng tượng; người quen cá nhân; sự thích thú hoặc đau khổ thực sự.",
+    "meaning_en": "The effect upon the judgment or feelings produced by any event, whether witnessed or participated in; personal and direct impressions as contrasted with description or fancies; personal acquaintance; actual enjoyment or suffering.",
+    "example": "It was an experience he would not soon forget.",
+    "cefr": "B1"
+  },
+  {
+    "word": "communicate",
+    "ipa": "/kəˈmjuːnɪkeɪt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để truyền đạt",
+    "meaning_en": "To impart",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "creative",
+    "ipa": "/kɹiˈeɪtɪv/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người trực tiếp tham gia vào quá trình tiếp thị sáng tạo.",
+    "meaning_en": "A person directly involved in a creative marketing process.",
+    "example": "He is a visionary creative.",
+    "cefr": "B1"
+  },
+  {
+    "word": "confident",
+    "ipa": "/ˈkɒn.fɪ.dənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "",
+    "meaning_en": "A person in whom one can confide or share one's secrets: a friend.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "responsible",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "efficient",
+    "ipa": "/əˈfɪʃənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một nguyên nhân; một cái gì đó gây ra hậu quả",
+    "meaning_en": "A cause; something that causes an effect",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "flexible",
+    "ipa": "/ˈflɛk.sə.bəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cái gì đó linh hoạt.",
+    "meaning_en": "Something that is flexible.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "reliable",
+    "ipa": "/ɹɪˈlaɪəbəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cái gì đó hoặc một người nào đó đáng tin cậy hoặc đáng tin cậy",
+    "meaning_en": "Something or someone reliable or dependable",
+    "example": "the old reliables",
+    "cefr": "B1"
+  },
+  {
+    "word": "generous",
+    "ipa": "/ˈdʒɛn(ə)ɹəs/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Cao quý trong hành vi hoặc hành động; có nguyên tắc, không nhỏ mọn; tử tế, cao thượng.",
+    "meaning_en": "Noble in behaviour or actions; principled, not petty; kind, magnanimous.",
+    "example": "Thank you for your generous words.",
+    "cefr": "B1"
+  },
+  {
+    "word": "curious",
+    "ipa": "/ˈkjɔː-/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Có xu hướng đặt câu hỏi, hoặc muốn khám phá hoặc điều tra; tò mò; (với ý nghĩa tiêu cực) tò mò, tò mò.",
+    "meaning_en": "Tending to ask questions, or to want to explore or investigate; inquisitive; (with a negative connotation) nosy, prying.",
+    "example": "Young children are naturally curious about the world and everything in it.",
+    "cefr": "B1"
+  },
+  {
+    "word": "patient",
+    "ipa": "/ˈpeɪʃənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người hoặc động vật được bác sĩ hoặc người có trình độ y tế khác điều trị.",
+    "meaning_en": "A person or animal who receives treatment from a doctor or other medically educated person.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "honest",
+    "ipa": "/ˈɒnɪst/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để tô điểm hoặc ban ân; để tôn vinh; để trở thành, thích hợp hoặc đáng kính.",
+    "meaning_en": "To adorn or grace; to honour; to make becoming, appropriate, or honourable.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "abandon",
+    "ipa": "/əˈbæn.dən/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Từ bỏ hoặc từ bỏ quyền kiểm soát, đầu hàng hoặc từ bỏ chính mình, hoặc nhượng bộ cảm xúc của một người.",
+    "meaning_en": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "abandoned",
+    "ipa": "/əˈbæn.dn̩d/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Từ bỏ hoặc từ bỏ quyền kiểm soát, đầu hàng hoặc từ bỏ chính mình, hoặc nhượng bộ cảm xúc của một người.",
+    "meaning_en": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "ability",
+    "ipa": "/əˈ.bɪl.ɪ.ti/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Tính phù hợp.",
+    "meaning_en": "Suitableness.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "able",
+    "ipa": "/ˈeɪ.bl̩/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Dễ sử dụng",
+    "meaning_en": "Easy to use.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "about",
+    "ipa": "/əˈbɛʊt/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Di chuyển xung quanh; astir.",
+    "meaning_en": "Moving around; astir.",
+    "example": "After my bout with Guillan-Barre Syndrome, it took me 6 months to be up and about again.",
+    "cefr": "B1"
+  },
+  {
+    "word": "above",
+    "ipa": "/əˈbʌv/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Chúc vui vẻ.",
+    "meaning_en": "Heaven.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "abroad",
+    "ipa": "/əˈbɹɔːd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Các quốc gia hoặc vùng đất ở nước ngoài.",
+    "meaning_en": "Countries or lands abroad.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "absence",
+    "ipa": "/ˈæb.s(ə)n̩s/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một trạng thái xa cách hoặc rút lui khỏi một địa điểm hoặc khỏi sự đồng hành; thời gian xa cách.",
+    "meaning_en": "A state of being away or withdrawn from a place or from companionship; the period of being away.",
+    "example": "Absence makes the heart grow fonder.",
+    "cefr": "B1"
+  },
+  {
+    "word": "absent",
+    "ipa": "/ˈæb.sn̩t/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(với mạo từ xác định) Một cái gì đó vắng mặt, đặc biệt là những người vắng mặt chung; những người đã hoặc không có ở đó.",
+    "meaning_en": "(with definite article) Something absent, especially absent people collectively; those who were or are not there.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "absolute",
+    "ipa": "/ˈæb.səˌljuːt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Điều đó độc lập với cách giải thích phụ thuộc vào ngữ cảnh, không xâm phạm, cơ bản.",
+    "meaning_en": "That which is independent of context-dependent interpretation, inviolate, fundamental.",
+    "example": "moral absolutes",
+    "cefr": "B1"
+  },
+  {
+    "word": "absolutely",
+    "ipa": "/æb.səˈl(j)uːt.lɪ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách tuyệt đối hoặc vô điều kiện; hoàn toàn, tích cực, toàn bộ.",
+    "meaning_en": "In an absolute or unconditional manner; utterly, positively, wholly.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "absorb",
+    "ipa": "/əbˈsɔːb/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Bao gồm để nó không còn tồn tại riêng biệt; để áp đảo; để làm cho biến mất như thể nuốt chửng; để kết hợp; để đồng hóa; để tiếp nhận và sử dụng hết.",
+    "meaning_en": "To include so that it no longer has separate existence; to overwhelm; to cause to disappear as if by swallowing up; to incorporate; to assimilate; to take in and use up.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "abuse",
+    "ipa": "/əˈbjuːs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Xử lý hoặc sử dụng không đúng cách; áp dụng cho mục đích sai hoặc xấu; một hành vi hoặc phong tục bất công, tham nhũng hoặc sai trái.",
+    "meaning_en": "Improper treatment or usage; application to a wrong or bad purpose; an unjust, corrupt or wrongful practice or custom.",
+    "example": "All abuse, whether physical, verbal, psychological or sexual, is bad.",
+    "cefr": "B1"
+  },
+  {
+    "word": "academic",
+    "ipa": "/ˌækəˈdɛmɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(thường được viết hoa) Một người theo Plato, một người theo chủ nghĩa Platon.",
+    "meaning_en": "(usually capitalized) A follower of Plato, a Platonist.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accent",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "trọng âm",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accept",
+    "ipa": "/ækˈsɛpt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để nhận, đặc biệt là với sự đồng ý, với sự ủng hộ, hoặc với sự chấp thuận.",
+    "meaning_en": "To receive, especially with a consent, with favour, or with approval.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "acceptable",
+    "ipa": "/æk.ˈsɛp.tə.bəl/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Xứng đáng, tử tế, chắc chắn được chấp nhận hoặc nhận được ít nhất với niềm vui vừa phải",
+    "meaning_en": "Worthy, decent, sure of being accepted or received with at least moderate pleasure",
+    "example": "We need to find an acceptable present for Jeff.",
+    "cefr": "B1"
+  },
+  {
+    "word": "access",
+    "ipa": "/ˈæksɛs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một con đường hoặc phương tiện để tiếp cận hoặc đi vào; một lối vào; một lối đi.",
+    "meaning_en": "A way or means of approaching or entering; an entrance; a passage.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accident",
+    "ipa": "/ˈæk.sə.dənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một sự kiện bất ngờ với những hậu quả tiêu cực xảy ra mà không có ý định của người phải chịu hậu quả.",
+    "meaning_en": "An unexpected event with negative consequences occurring without the intention of the one suffering the consequences.",
+    "example": "to die by an accident",
+    "cefr": "B1"
+  },
+  {
+    "word": "accidental",
+    "ipa": "/ˌæk.sɪ.ˈdɛn.tl̩/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một tài sản không thiết yếu; một tài sản không thiết yếu; bất cứ điều gì vô tình xảy ra.",
+    "meaning_en": "A property which is not essential; a nonessential; anything happening accidentally.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accidentally",
+    "ipa": "/ˌæksəˈdɛnt(ə)li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách tình cờ; tình cờ, bất ngờ.",
+    "meaning_en": "In an accidental manner; by chance, unexpectedly.",
+    "example": "He discovered penicillin largely accidentally.",
+    "cefr": "B1"
+  },
+  {
+    "word": "accommodation",
+    "ipa": "/ə.ˌkɒm.ə.ˈdeɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(thường là danh từ chung) Chỗ ở trong nhà ở hoặc khu vực sinh hoạt tương tự dành cho khách du lịch trong khách sạn hoặc trên tàu du lịch, hoặc tù nhân, v.v.",
+    "meaning_en": "(usually a mass noun) Lodging in a dwelling or similar living quarters afforded to travellers in hotels or on cruise ships, or prisoners, etc.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accompany",
+    "ipa": "/ə.ˈkʌm.pə.ni/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Đi cùng hoặc tham dự với tư cách là người bạn đồng hành hoặc cộng sự; đi cùng; đi cùng.",
+    "meaning_en": "To go with or attend as a companion or associate; to keep company with; to go along with.",
+    "example": "Geoffrey accompanied the group on their pilgrimage.",
+    "cefr": "B1"
+  },
+  {
+    "word": "according to",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "dựa theo",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "account",
+    "ipa": "/ə.ˈkaʊnt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một sổ đăng ký các giao dịch bằng tiền; một bản sao kê bằng văn bản hoặc bản in về các giao dịch kinh doanh hoặc các khoản nợ và tín dụng, và cả những thứ khác phải được tính toán hoặc xem xét.",
+    "meaning_en": "A registry of pecuniary transactions; a written or printed statement of business dealings or debts and credits, and also of other things subjected to a reckoning or review.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "account for",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Giải thích",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accurate",
+    "ipa": "/ˈæk.jə.ɹɪt/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Nói sự thật hoặc đưa ra kết quả đúng; chính xác; không bị lỗi hoặc bị lỗi",
+    "meaning_en": "Telling the truth or giving a true result; exact; not defective or faulty",
+    "example": "accurate knowledge",
+    "cefr": "B1"
+  },
+  {
+    "word": "accurately",
+    "ipa": "/ˈæk.jə.ɹɪt.li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách chính xác; chính xác; chính xác; không có lỗi hoặc khiếm khuyết.",
+    "meaning_en": "In an accurate manner; exactly; precisely; without error or defect.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "accuse",
+    "ipa": "/əˈkjuːz/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Cáo buộc.",
+    "meaning_en": "Accusation.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "achievement",
+    "ipa": "/əˈtʃiːvmənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động đạt được hoặc thực hiện; một hiệu suất thành công; thành tựu",
+    "meaning_en": "The act of achieving or performing; a successful performance; accomplishment",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "acid",
+    "ipa": "/ˈæs.ɪd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một chất chua.",
+    "meaning_en": "A sour substance.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "acknowledge",
+    "ipa": "/əkˈnɒ.lɪdʒ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thừa nhận kiến thức về; công nhận là sự thật hoặc sự thật; tuyên bố niềm tin của một người vào",
+    "meaning_en": "To admit the knowledge of; to recognize as a fact or truth; to declare one's belief in",
+    "example": "to acknowledge the being of a god",
+    "cefr": "B1"
+  },
+  {
+    "word": "a couple",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "cặp, một đôi",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "acquire",
+    "ipa": "/əˈkwaɪə/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để có được.",
+    "meaning_en": "To get.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "across",
+    "ipa": "/əˈkɹɑs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(ô chữ, thường kết hợp) Một từ chạy theo chiều ngang trong lưới câu đố đã hoàn thành hoặc đầu mối liên quan của nó.",
+    "meaning_en": "(crosswords, often in combination) A word that runs horizontally in the completed puzzle grid or its associated clue.",
+    "example": "I solved all of the acrosses, but then got stuck on 3 down.",
+    "cefr": "B1"
+  },
+  {
+    "word": "act",
+    "ipa": "/æk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cái gì đó đã được thực hiện, một hành động.",
+    "meaning_en": "Something done, a deed.",
+    "example": "an act of goodwill",
+    "cefr": "B1"
+  },
+  {
+    "word": "action",
+    "ipa": "/ˈæk.ʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cái gì đó được thực hiện để hoàn thành một mục đích.",
+    "meaning_en": "Something done so as to accomplish a purpose.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "active",
+    "ipa": "/ˈæk.tɪv/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người hoặc vật đang hành động hoặc có khả năng hành động.",
+    "meaning_en": "A person or thing that is acting or capable of acting.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "actively",
+    "ipa": "",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách chủ động.",
+    "meaning_en": "In an active manner.",
+    "example": "He was actively listening.",
+    "cefr": "B1"
+  },
+  {
+    "word": "activity",
+    "ipa": "/ækˈtɪ.və.ti/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Trạng thái hoặc chất lượng của hoạt động; hoạt động.",
+    "meaning_en": "The state or quality of being active; activeness.",
+    "example": "Pit row was abuzz with activity.",
+    "cefr": "B1"
+  },
+  {
+    "word": "actor",
+    "ipa": "/ˈæk.tə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người biểu diễn, đóng một vai trong một vở kịch hoặc bộ phim sân khấu.",
+    "meaning_en": "A person who performs, plays a part in a theatrical play or film.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "actress",
+    "ipa": "/ˈak.tɹəs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người phụ nữ biểu diễn trên sân khấu hoặc trong các bộ phim.",
+    "meaning_en": "A female who performs on the stage or in films.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "actual",
+    "ipa": "/ˈak(t)ʃj(ʊ)əl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thực tế, thực tế; đáng chú ý là:",
+    "meaning_en": "An actual, real one; notably:",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "actually",
+    "ipa": "/-ɪ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "(phương thức) Trong hành động hoặc trong thực tế; thực sự; trong sự thật; tích cực.",
+    "meaning_en": "(modal) In act or in fact; really; in truth; positively.",
+    "example": "Actually, I had nothing to do with that incident.",
+    "cefr": "B1"
+  },
+  {
+    "word": "ad",
+    "ipa": "/æd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Quảng cáo",
+    "meaning_en": "Advertisement.",
+    "example": "I have placed both of the ads in the newspaper as instructed.",
+    "cefr": "B1"
+  },
+  {
+    "word": "adapt",
+    "ipa": "/əˈdæpt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để làm cho phù hợp; để làm cho tương ứng; để phù hợp hoặc phù hợp",
+    "meaning_en": "To make suitable; to make to correspond; to fit or suit",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "add",
+    "ipa": "/æd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hành động hoặc trường hợp thêm.",
+    "meaning_en": "An act or instance of adding.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "addition",
+    "ipa": "/æˈdɪʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động thêm bất cứ thứ gì.",
+    "meaning_en": "The act of adding anything.",
+    "example": "The addition of five more items to the agenda will make the meeting unbearably long.",
+    "cefr": "B1"
+  },
+  {
+    "word": "additional",
+    "ipa": "/əˈdɪʃənəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Đã thêm nội dung.",
+    "meaning_en": "Something added.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "add on",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "gắn thêm",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "address",
+    "ipa": "/æˈdɹɛs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phương hướng.",
+    "meaning_en": "Direction.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "add up",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "cộng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "add up to",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Chắc chắn lên đến",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "adequate",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Cân bằng; làm cho đầy đủ.",
+    "meaning_en": "To equalize; to make adequate.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "adequately",
+    "ipa": "",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách đầy đủ.",
+    "meaning_en": "In an adequate manner.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "adjust",
+    "ipa": "/əˈdʒʌst/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để sửa đổi.",
+    "meaning_en": "To modify.",
+    "example": "Morimoto's recipes are adjusted to suit the American palate.",
+    "cefr": "B1"
+  },
+  {
+    "word": "admiration",
+    "ipa": "/ˌæd.mɚˈeɪʃ.ən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cảm xúc tích cực bao gồm sự ngạc nhiên và tán thành; coi người khác là tuyệt vời",
+    "meaning_en": "A positive emotion including wonder and approbation; the regarding of another as being wonderful",
+    "example": "They looked at the landscape in admiration.",
+    "cefr": "B1"
+  },
+  {
+    "word": "admire",
+    "ipa": "/ədˈmaɪə/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Ngạc nhiên trước; ngạc nhiên nhìn; ngạc nhiên trước.",
+    "meaning_en": "To be amazed at; to view with surprise; to marvel at.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "admit",
+    "ipa": "/ədˈmɪt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Cho phép vào; cho phép vào (đến), cho dù vào một nơi, vào tâm trí hoặc xem xét",
+    "meaning_en": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration",
+    "example": "A ticket admits one into a playhouse.",
+    "cefr": "B1"
+  },
+  {
+    "word": "adopt",
+    "ipa": "/əˈdɒpt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Lựa chọn mối quan hệ (con cái, người thừa kế, bạn bè, công dân, v.v.)",
+    "meaning_en": "To take by choice into relationship (a child, heir, friend, citizen, etc.)",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "adult",
+    "ipa": "/əˈdʌlt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một con người hoặc động vật trưởng thành.",
+    "meaning_en": "A fully grown human or animal.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "advance",
+    "ipa": "/ədˈvaːns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một bước tiến; cải thiện hoặc tiến bộ.",
+    "meaning_en": "A forward move; improvement or progression.",
+    "example": "an advance in health or knowledge",
+    "cefr": "B1"
+  },
+  {
+    "word": "advanced",
+    "ipa": "/ədˈvɑːnst/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thúc đẩy hoặc tạo lợi thế.",
+    "meaning_en": "To promote or advantage.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "advantage",
+    "ipa": "/ədˈvɑːn.tɪdʒ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bất kỳ điều kiện, hoàn cảnh, cơ hội hoặc phương tiện nào, đặc biệt thuận lợi cho thành công, hoặc cho bất kỳ mục đích mong muốn nào.",
+    "meaning_en": "Any condition, circumstance, opportunity or means, particularly favorable to success, or to any desired end.",
+    "example": "The enemy had the advantage of a more elevated position.",
+    "cefr": "B1"
+  },
+  {
+    "word": "adventure",
+    "ipa": "/ædˈvɛnt͡ʃɚ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Việc gặp phải rủi ro; một cam kết táo bạo, trong đó nguy hiểm có thể gặp phải, và vấn đề được đặt cược vào các sự kiện không lường trước được; một kỳ tích táo bạo.",
+    "meaning_en": "The encountering of risks; a bold undertaking, in which dangers are likely to be encountered, and the issue is staked upon unforeseen events; a daring feat.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "advert",
+    "ipa": "/ˈædvɜː(ɹ)t/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một quảng cáo, một quảng cáo.",
+    "meaning_en": "An advertisement, an ad.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "advertise",
+    "ipa": "/ˈadvə(ɹ)taɪz/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thông báo (đặc biệt là công khai) về (một cái gì đó); công bố công khai.",
+    "meaning_en": "To give (especially public) notice of (something); to announce publicly.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "advertisement",
+    "ipa": "/ədˈvɜːtɪsmənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một lời mời chào thương mại được thiết kế để bán một số hàng hóa, dịch vụ hoặc tương tự.",
+    "meaning_en": "A commercial solicitation designed to sell some commodity, service or similar.",
+    "example": "Companies try to sell their products using advertisements in form of placards, television spots and print publications.",
+    "cefr": "B1"
+  },
+  {
+    "word": "advertising",
+    "ipa": "/ˈædvə(ɹ)ˌtaɪzɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thông báo (đặc biệt là công khai) về (một cái gì đó); công bố công khai.",
+    "meaning_en": "To give (especially public) notice of (something); to announce publicly.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "advice",
+    "ipa": "/ədˈvaɪs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một ý kiến được đưa ra trong một nỗ lực để giúp ích.",
+    "meaning_en": "An opinion offered in an effort to be helpful.",
+    "example": "She was offered various piece of advice on what to do with her new-found wealth.",
+    "cefr": "B1"
+  },
+  {
+    "word": "advise",
+    "ipa": "/ədˈvaɪz/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Đưa ra lời khuyên; đưa ra ý kiến, như là xứng đáng hoặc phù hợp để được tuân theo.",
+    "meaning_en": "To give advice to; to offer an opinion to, as worthy or expedient to be followed.",
+    "example": "The dentist advised me to brush three times a day.",
+    "cefr": "B1"
+  },
+  {
+    "word": "affair",
+    "ipa": "/əˈfɛə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(thường ở dạng số nhiều) Một cái gì đó được thực hiện hoặc sẽ được thực hiện; kinh doanh dưới bất kỳ hình thức nào, thương mại, chuyên nghiệp hoặc công khai.",
+    "meaning_en": "(often in the plural) Something which is done or is to be done; business of any kind, commercial, professional, or public.",
+    "example": "a difficult affair to manage",
+    "cefr": "B1"
+  },
+  {
+    "word": "affect",
+    "ipa": "/əˈfɛkt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để gây ảnh hưởng hoặc thay đổi.",
+    "meaning_en": "To influence or alter.",
+    "example": "The experience affected me deeply.",
+    "cefr": "B1"
+  },
+  {
+    "word": "affection",
+    "ipa": "/əˈfɛkʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động gây ảnh hưởng hoặc hành động.",
+    "meaning_en": "The act of affecting or acting upon.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "afford",
+    "ipa": "/əˈfɔːd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Gây ra, đứng lên hoặc chịu đựng mà không gây thiệt hại nghiêm trọng, như một hành động có thể gây tổn hại trong các trường hợp khác;- với một phụ trợ, có thể, có thể, có thể, v.v.; để có thể hoặc đủ giàu có.",
+    "meaning_en": "To incur, stand, or bear without serious detriment, as an act which might under other circumstances be injurious;—with an auxiliary, as can, could, might, etc.; to be able or rich enough.",
+    "example": "I think we can afford the extra hour it will take.  We can only afford to buy a small car at the moment.",
+    "cefr": "B1"
+  },
+  {
+    "word": "afraid",
+    "ipa": "/əˈfɹeɪd/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "(thường được sử dụng theo vị ngữ, không phải do quy kết, sợ hãi) Ấn tượng với nỗi sợ hãi hoặc e ngại; trong nỗi sợ hãi.",
+    "meaning_en": "(usually used predicatively, not attributively, be afraid) Impressed with fear or apprehension; in fear.",
+    "example": "He is afraid of death.",
+    "cefr": "B1"
+  },
+  {
+    "word": "after",
+    "ipa": "/ˈæf.tə(ɹ)/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Sau đó; thứ hai (trong số hai); tiếp theo, tiếp theo, tiếp theo",
+    "meaning_en": "Later; second (of two); next, following, subsequent",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "afternoon",
+    "ipa": "/af.təɾˈnʉːn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Khoảng thời gian trong ngày từ trưa hoặc trưa cho đến khi mặt trời lặn, tối hoặc tối hoặc 6 giờ chiều.",
+    "meaning_en": "The part of the day from noon or lunchtime until sunset, evening, or suppertime or 6pm.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "afterwards",
+    "ipa": "/ˈɑːftə.wədz/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "(địa điểm tạm thời) Vào một thời điểm muộn hơn hoặc thành công.",
+    "meaning_en": "(temporal location) At a later or succeeding time.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "again",
+    "ipa": "/əˈɡeɪn/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một lần khác; một lần nữa.",
+    "meaning_en": "Another time; once more.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "against",
+    "ipa": "/əˈɡeɪnst/",
+    "partOfSpeech": "preposition",
+    "meaning_vi": "ngược chiều",
+    "meaning_en": "In a contrary direction to.",
+    "example": "It is hard work to swim against the current.",
+    "cefr": "B1"
+  },
+  {
+    "word": "age",
+    "ipa": "/eɪd͡ʒ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Toàn bộ thời gian sống của một sinh vật, dù là động vật, thực vật hay loại khác.",
+    "meaning_en": "The whole duration of a being, whether animal, plant, or other kind, being alive.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "aged",
+    "ipa": "/eɪdʒd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để làm cho già đi; để truyền đạt các đặc điểm của tuổi đến.",
+    "meaning_en": "To cause to grow old; to impart the characteristics of age to.",
+    "example": "Grief ages us.",
+    "cefr": "B1"
+  },
+  {
+    "word": "agency",
+    "ipa": "/ˈeɪ.dʒən.si/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Năng lực, tình trạng hoặc trạng thái hoạt động hoặc sức mạnh.",
+    "meaning_en": "The capacity, condition, or state of acting or of exerting power.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "agent",
+    "ipa": "/ˈeɪ.dʒənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Người sử dụng quyền lực, hoặc có quyền hành động",
+    "meaning_en": "One who exerts power, or has the power to act",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "aggressive",
+    "ipa": "/əˈɡɹɛs.ɪv/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Đặc trưng bởi sự gây hấn; tấn công bất công; có xu hướng hành xử theo cách liên quan đến tấn công hoặc tranh cãi.",
+    "meaning_en": "Characterized by aggression; unjustly attacking; prone to behave in a way that involves attacking or arguing.",
+    "example": "an aggressive policy, war, person, nation",
+    "cefr": "B1"
+  },
+  {
+    "word": "ago",
+    "ipa": "/əˈɡəʊ/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Đã qua rồi; đã qua rồi; đã qua đời; đã qua đời; đã qua đời.",
+    "meaning_en": "Gone; gone by; gone away; passed; passed away.",
+    "example": "in days ago/in days agone",
+    "cefr": "B1"
+  },
+  {
+    "word": "agree",
+    "ipa": "/əˈɡɹi/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Hài hòa trong quan điểm, tuyên bố hoặc hành động; thống nhất hoặc hòa hợp; thống nhất hoặc nhất quán; đồng tình.",
+    "meaning_en": "To harmonize in opinion, statement, or action; to be in unison or concord; to be or become united or consistent; to concur.",
+    "example": "all parties agree in the expediency of the law.",
+    "cefr": "B1"
+  },
+  {
+    "word": "agreement",
+    "ipa": "/əˈɡɹiːmənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một sự hiểu biết giữa các thực thể để tuân theo một quy trình ứng xử cụ thể.",
+    "meaning_en": "An understanding between entities to follow a specific course of conduct.",
+    "example": "to enter an agreement;  the UK and US negotiators nearing agreement;  he nodded his agreement.",
+    "cefr": "B1"
+  },
+  {
+    "word": "ahead",
+    "ipa": "/əˈhɛd/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Trong hoặc ra phía trước; trước; tiếp tục.",
+    "meaning_en": "In or to the front; in advance; onward.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "aid",
+    "ipa": "/eɪd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Trợ giúp; hỗ trợ; giúp đỡ, cứu trợ.",
+    "meaning_en": "Help; assistance; succor, relief.",
+    "example": "He came to my aid when I was foundering.",
+    "cefr": "B1"
+  },
+  {
+    "word": "aim",
+    "ipa": "/eɪm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Việc chĩa vũ khí, như súng, phi tiêu, hoặc mũi tên, hoặc vật thể, theo đường hướng với vật thể dự định tấn công; đường bắn; hướng của bất cứ thứ gì, chẳng hạn như giáo, cú đánh, diễn ngôn, nhận xét, về một điểm hoặc vật thể cụ thể, nhằm tấn công hoặc tác động đến nó.",
+    "meaning_en": "The pointing of a weapon, as a gun, a dart, or an arrow, or object, in the line of direction with the object intended to be struck; the line of fire; the direction of anything, such as a spear, a blow, a discourse, a remark, towards a particular point or object, with a view to strike or affect it.",
+    "example": "Take time with the aim of your gun.",
+    "cefr": "B1"
+  },
+  {
+    "word": "air",
+    "ipa": "/ˈɛə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Chất cấu thành bầu khí quyển của trái đất, cụ thể là:",
+    "meaning_en": "The substance constituting earth's atmosphere, particularly:",
+    "example": "I'm going outside to get some air.",
+    "cefr": "B1"
+  },
+  {
+    "word": "aircraft",
+    "ipa": "/ɛə.kɹɑːft/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một phương tiện có khả năng bay trong khí quyển do tương tác với không khí, chẳng hạn như lực nổi hoặc lực nâng",
+    "meaning_en": "A vehicle capable of atmospheric flight due to interaction with the air, such as buoyancy or lift",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "airport",
+    "ipa": "/ˈɛə.pɔːt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Sân bay (khu vực được chỉ định để cất cánh và hạ cánh máy bay), bao gồm một hoặc nhiều đường băng và (đối với sân bay thương mại) một hoặc nhiều nhà ga hành khách.",
+    "meaning_en": "An airfield (an area designated for the takeoff and landing of aircraft), including one or more runways and (for commercial airports) one or more passenger terminals.",
+    "example": "Because of this, and contrary to popular belief, British airports primarily act as giant wealth extractors, transporting our richest citizens out of the country as often as possible to take their money overseas. ― The Independent, Heathrow expansion to mainly benefit wealthy frequent fliers, research finds, 23 june 2018.",
+    "cefr": "B1"
+  },
+  {
+    "word": "alarm",
+    "ipa": "/əˈlɑːm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một lời triệu tập vũ khí, như khi kẻ thù tiếp cận.",
+    "meaning_en": "A summons to arms, as on the approach of an enemy.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alarmed",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "báo động",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alarming",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "làm lo sợ, làm hốt hoảng, làm sợ hãi",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alcohol",
+    "ipa": "/ˈæl.kə.hɒl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Nhóm bất kỳ trong số các nhóm hợp chất hữu cơ (như etanol) chứa nhóm chức hydroxyl (-OH).",
+    "meaning_en": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alcoholic",
+    "ipa": "/ˌælkəˈhɒlɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người nghiện rượu.",
+    "meaning_en": "A person addicted to alcohol.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alive",
+    "ipa": "/əˈlaɪv/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Có sự sống; đang sống; chưa chết",
+    "meaning_en": "Having life; living; not dead",
+    "example": "As long as the plant is alive, he will continue to water it.",
+    "cefr": "B1"
+  },
+  {
+    "word": "all",
+    "ipa": "/ɔːl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(với một đại từ sở hữu) Tất cả mọi thứ mà một người có khả năng.",
+    "meaning_en": "(with a possessive pronoun) Everything that one is capable of.",
+    "example": "She gave her all, and collapsed at the finish line.",
+    "cefr": "B1"
+  },
+  {
+    "word": "allied",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "liên minh, đồng minh, thông gia",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "allow",
+    "ipa": "/əˈlaʊ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Cấp, cho, thừa nhận, đồng ý, đủ khả năng hoặc đầu hàng; để cho một người có.",
+    "meaning_en": "To grant, give, admit, accord, afford, or yield; to let one have.",
+    "example": "to allow a servant his liberty;  to allow a free passage;  to allow one day for rest",
+    "cefr": "B1"
+  },
+  {
+    "word": "allow for",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "cho phép",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "all right",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tốt, ổn, khỏe",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "ally",
+    "ipa": "",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người, nhóm hoặc nhà nước (v.v.) được liên kết với người khác vì một lý do chung; người này đoàn kết với người khác theo hiệp ước hoặc mục đích chung; một liên minh.",
+    "meaning_en": "A person, group, or state (etc) which is associated with another for a common cause; one united to another by treaty or common purpose; a confederate.",
+    "example": "the two countries were allies in WWI",
+    "cefr": "B1"
+  },
+  {
+    "word": "almost",
+    "ipa": "/ɔːl.ˈməʊst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cái gì đó hoặc một người nào đó không hoàn toàn làm được.",
+    "meaning_en": "Something or someone that doesn't quite make it.",
+    "example": "In all the submissions, they found four papers that were clearly worth publishing and another dozen almosts.",
+    "cefr": "B1"
+  },
+  {
+    "word": "alone",
+    "ipa": "/əˈləʊn/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Một mình, đơn độc.",
+    "meaning_en": "By oneself, solitary.",
+    "example": "I can't ask for help because I am alone.",
+    "cefr": "B1"
+  },
+  {
+    "word": "along",
+    "ipa": "/əˈlɑŋ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Trong công ty; cùng nhau.",
+    "meaning_en": "In company; together.",
+    "example": "John played the piano and everyone sang along.",
+    "cefr": "B1"
+  },
+  {
+    "word": "alongside",
+    "ipa": "/ə.lɒŋˈsaɪd/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Dọc theo bên cạnh; bên cạnh; bên cạnh.",
+    "meaning_en": "Along the side; by the side; side by side with.",
+    "example": "Ahoy! Bring your boat alongside mine.",
+    "cefr": "B1"
+  },
+  {
+    "word": "aloud",
+    "ipa": "/əˈlaʊd/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Nói to lên.",
+    "meaning_en": "Spoken out loud.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alphabet",
+    "ipa": "/ˈæl.fə.bɛt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Tập hợp các chữ cái được sử dụng khi viết bằng một ngôn ngữ.",
+    "meaning_en": "The set of letters used when writing in a language.",
+    "example": "In the first year of school, pupils are taught to recite the alphabet.",
+    "cefr": "B1"
+  },
+  {
+    "word": "alphabetical",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "thuộc bảng chứ cái",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alphabetically",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "theo thứ tự abc",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "already",
+    "ipa": "/ɑlˈɹɛdi/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Trước một số thời điểm nhất định, quá khứ, hiện tại hoặc tương lai; trước thời điểm này; trước đó.",
+    "meaning_en": "Prior to some specified time, either past, present, or future; by this time; previously.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "also",
+    "ipa": "/ˈɔːl.səʊ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "(tập trung) Ngoài ra; bên cạnh đó; cũng như; hơn nữa; quá.",
+    "meaning_en": "(focus) In addition; besides; as well; further; too.",
+    "example": "They had porridge for breakfast, and also toast.",
+    "cefr": "B1"
+  },
+  {
+    "word": "alter",
+    "ipa": "/ˈɑl.tɚ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để thay đổi hình thức hoặc cấu trúc của.",
+    "meaning_en": "To change the form or structure of.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alternative",
+    "ipa": "/ɒl.ˈtɜː(ɹ).nə.tɪv/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một tình huống cho phép lựa chọn loại trừ lẫn nhau giữa hai hoặc nhiều khả năng; một sự lựa chọn giữa hai hoặc nhiều khả năng.",
+    "meaning_en": "A situation which allows a mutually exclusive choice between two or more possibilities; a choice between two or more possibilities.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "alternatively",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "một sự lựa chọn",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "although",
+    "ipa": "/ɔːlˈðəʊ/",
+    "partOfSpeech": "conjunction",
+    "meaning_vi": "Mặc dù, mặc dù, mặc dù hoặc mặc dù thực tế là: giới thiệu một điều khoản thể hiện sự nhượng bộ.",
+    "meaning_en": "Though, even though, in spite of or despite the fact that: introducing a clause that expresses a concession.",
+    "example": "Although it was very muddy, the football game went on.",
+    "cefr": "B1"
+  },
+  {
+    "word": "altogether",
+    "ipa": "/ɔː.tuːˈɡɛð.ə(ɹ)/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Không có ngoại lệ; hoàn toàn; hoàn toàn.",
+    "meaning_en": "Without exception; wholly; completely.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "always",
+    "ipa": "/ˈɔː(l).weɪz/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Tại mọi thời điểm; trong suốt mọi thời điểm; kể từ khi bắt đầu.",
+    "meaning_en": "At all times; throughout all time; since the beginning.",
+    "example": "Airplanes did not always exist as a form of transportation.",
+    "cefr": "B1"
+  },
+  {
+    "word": "amaze",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "làm ngạc nhiên, làm sửng sốt",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "amazed",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "kinh ngạc, sửng sốt",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "amazing",
+    "ipa": "/əˈmeɪzɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để lấp đầy sự ngạc nhiên và ngạc nhiên; để ngạc nhiên, kinh ngạc, ngạc nhiên hoặc bối rối.",
+    "meaning_en": "To fill with wonder and surprise; to astonish, astound, surprise or perplex.",
+    "example": "He was amazed when he found that the girl was a robot.",
+    "cefr": "B1"
+  },
+  {
+    "word": "ambition",
+    "ipa": "/æmˈbɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Mong muốn hoặc mong muốn quá mức đối với một số đối tượng mang lại sự khác biệt, như sở thích, danh dự, ưu thế, quyền lực chính trị hoặc danh tiếng văn học; mong muốn phân biệt bản thân với người khác.",
+    "meaning_en": "Eager or inordinate desire for some object that confers distinction, as preferment, honor, superiority, political power, or literary fame; desire to distinguish one's self from other people.",
+    "example": "My son, John, wants to be a firefighter very much. He has a lot of ambition.",
+    "cefr": "B1"
+  },
+  {
+    "word": "ambulance",
+    "ipa": "/ˈæm.bjə.ləns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một chiếc xe cấp cứu được thiết kế để vận chuyển những người bị bệnh nặng hoặc bị thương đến bệnh viện.",
+    "meaning_en": "An emergency vehicle designed for transporting seriously ill or injured people to a hospital.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "among",
+    "ipa": "/əˈmɒŋ/",
+    "partOfSpeech": "preposition",
+    "meaning_vi": "Biểu thị sự trộn lẫn hoặc trộn lẫn với các vật thể riêng biệt hoặc có thể tách rời. (Xem Ghi chú Sử dụng ở giữa.)",
+    "meaning_en": "Denotes a mingling or intermixing with distinct or separable objects. (See Usage Note at amidst.)",
+    "example": "How can you speak with authority about their customs when you have never lived among them?",
+    "cefr": "B1"
+  },
+  {
+    "word": "amount",
+    "ipa": "/əˈmaʊnt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Tổng số, tổng hợp hoặc tổng vật liệu (không áp dụng cho các số hoặc đơn vị hoặc mục rời rạc bằng tiếng Anh tiêu chuẩn).",
+    "meaning_en": "The total, aggregate or sum of material (not applicable to discrete numbers or units or items in standard English).",
+    "example": "The amount of atmospheric pollution threatens a health crisis.",
+    "cefr": "B1"
+  },
+  {
+    "word": "amount to",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "lên tới",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "amuse",
+    "ipa": "/əˈmjuːz/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để giải trí hoặc chiếm giữ một cách dễ chịu; khuấy động với những cảm xúc dễ chịu.",
+    "meaning_en": "To entertain or occupy in a pleasant manner; to stir with pleasing emotions.",
+    "example": "I watch these movies because they amuse me.",
+    "cefr": "B1"
+  },
+  {
+    "word": "amused",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "vui thích",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "amusing",
+    "ipa": "/əˈmjuːzɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để giải trí hoặc chiếm giữ một cách dễ chịu; khuấy động với những cảm xúc dễ chịu.",
+    "meaning_en": "To entertain or occupy in a pleasant manner; to stir with pleasing emotions.",
+    "example": "I watch these movies because they amuse me.",
+    "cefr": "B1"
+  },
+  {
+    "word": "analyse",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để phân tích.",
+    "meaning_en": "To subject to analysis.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "analysis",
+    "ipa": "/əˈnælɪsɪs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phân hủy thành các thành phần để nghiên cứu (một điều phức tạp, khái niệm, lý thuyết, v.v.).",
+    "meaning_en": "Decomposition into components in order to study (a complex thing, concept, theory etc.).",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "ancient",
+    "ipa": "/ˈeɪn.ʃənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người rất già.",
+    "meaning_en": "A person who is very old.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "and",
+    "ipa": "",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Theo nhịp điệu, nửa sau của một nhịp chia.",
+    "meaning_en": "In rhythm, the second half of a divided beat.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anger",
+    "ipa": "/ˈæŋɡə(ɹ)/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "",
+    "meaning_en": "A strong feeling of displeasure, hostility or antagonism towards someone or something, usually combined with an urge to harm.",
+    "example": "You need to control your anger.",
+    "cefr": "B1"
+  },
+  {
+    "word": "angle",
+    "ipa": "/ˈæŋ.ɡəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hình được tạo thành bởi hai tia bắt đầu từ một điểm chung (góc phẳng) hoặc bởi ba mặt phẳng giao nhau (góc đặc).",
+    "meaning_en": "A figure formed by two rays which start from a common point (a plane angle) or by three planes that intersect (a solid angle).",
+    "example": "the angle between lines A and B",
+    "cefr": "B1"
+  },
+  {
+    "word": "angrily",
+    "ipa": "/ˈæŋ.ɡɹə.li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách giận dữ; dưới ảnh hưởng của sự tức giận.",
+    "meaning_en": "In an angry manner; under the influence of anger.",
+    "example": "\"Leave me alone for once,\" she said angrily.",
+    "cefr": "B1"
+  },
+  {
+    "word": "angry",
+    "ipa": "/ˈæŋ.ɡɹi/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Thể hiện hoặc cảm thấy tức giận.",
+    "meaning_en": "Displaying or feeling anger.",
+    "example": "An angry mob started looting the warehouse.",
+    "cefr": "B1"
+  },
+  {
+    "word": "animal",
+    "ipa": "/ˈænɪməl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Trong sử dụng khoa học, sinh vật đa bào thường di động, có tế bào không được bao bọc trong thành tế bào cứng (phân biệt nó với thực vật và nấm) và chỉ thu được năng lượng từ việc tiêu thụ các sinh vật khác (phân biệt nó với thực vật).",
+    "meaning_en": "In scientific usage, a multicellular organism that is usually mobile, whose cells are not encased in a rigid cell wall (distinguishing it from plants and fungi) and which derives energy solely from the consumption of other organisms (distinguishing it from plants).",
+    "example": "A cat is an animal, not a plant. Humans are also animals, under the scientific definition, as we are not plants.",
+    "cefr": "B1"
+  },
+  {
+    "word": "ankle",
+    "ipa": "/ˈæŋ.kəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Khớp xương nối bàn chân với chân; phần trên cùng của bàn chân và phần dưới cùng của chân, có chứa khớp xương này.",
+    "meaning_en": "The skeletal joint which connects the foot with the leg; the uppermost portion of the foot and lowermost portion of the leg, which contain this skeletal joint.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anniversary",
+    "ipa": "/ˌænɪˈvɜːs(ə)ɹi/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một ngày là số năm chính xác (tính đến ngày) kể từ khi một sự kiện quan trọng nhất định xảy ra. Thường được bắt đầu bằng một số thứ tự cho biết số năm.",
+    "meaning_en": "A day that is an exact number of years (to the day) since a given significant event occurred. Often preceded by an ordinal number indicating the number of years.",
+    "example": "Today is the fiftieth anniversary of the end of the war.",
+    "cefr": "B1"
+  },
+  {
+    "word": "announce",
+    "ipa": "/əˈnaʊns/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thông báo công khai, đặc biệt là lần đầu tiên; công khai",
+    "meaning_en": "To give public notice, especially for the first time; to make known",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "annoy",
+    "ipa": "/əˈnɔɪ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cảm giác khó chịu hoặc bực bội gây ra bởi những gì người ta không thích.",
+    "meaning_en": "A feeling of discomfort or vexation caused by what one dislikes.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "annoyed",
+    "ipa": "/əˈnɔɪd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Làm phiền hoặc khó chịu, đặc biệt là do các hành vi liên tục hoặc lặp đi lặp lại; làm phiền với những hành động khó chịu.",
+    "meaning_en": "To disturb or irritate, especially by continued or repeated acts; to bother with unpleasant deeds.",
+    "example": "Marc loved his sister, but when she annoyed him he wanted to switch her off.",
+    "cefr": "B1"
+  },
+  {
+    "word": "annoying",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Làm phiền hoặc khó chịu, đặc biệt là do các hành vi liên tục hoặc lặp đi lặp lại; làm phiền với những hành động khó chịu.",
+    "meaning_en": "To disturb or irritate, especially by continued or repeated acts; to bother with unpleasant deeds.",
+    "example": "Marc loved his sister, but when she annoyed him he wanted to switch her off.",
+    "cefr": "B1"
+  },
+  {
+    "word": "annual",
+    "ipa": "/ˈæn.ju.əl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một ấn phẩm hàng năm; một cuốn sách, tạp chí định kỳ, tạp chí, báo cáo, truyện tranh, niên giám, v.v., được xuất bản hàng loạt mỗi năm một lần, có thể hoặc không thể xuất bản hàng tuần hoặc hàng tháng.",
+    "meaning_en": "An annual publication; a book, periodical, journal, report, comic book, yearbook, etc., which is published serially once a year, which may or may not be in addition to regular weekly or monthly publication.",
+    "example": "I read the magazine, but I usually don't purchase the annuals.",
+    "cefr": "B1"
+  },
+  {
+    "word": "annually",
+    "ipa": "/ˈæn.jʊə.li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Mỗi năm một lần mà không thất bại, hàng năm",
+    "meaning_en": "Once every year without fail, yearly",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "another",
+    "ipa": "/æˈnʌð.ə(ɹ)/",
+    "partOfSpeech": "pronoun",
+    "meaning_vi": "Một cái khác cùng loại.",
+    "meaning_en": "An additional one of the same kind.",
+    "example": "There is one sterling and here is another",
+    "cefr": "B1"
+  },
+  {
+    "word": "answer",
+    "ipa": "/ˈan.sə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một câu trả lời hoặc câu trả lời; một cái gì đó đã nói hoặc làm để phản ứng với một lời phát biểu hoặc câu hỏi.",
+    "meaning_en": "A response or reply; something said or done in reaction to a statement or question.",
+    "example": "Her answer to his proposal was a slap in the face.",
+    "cefr": "B1"
+  },
+  {
+    "word": "anti-",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "chống lại",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anticipate",
+    "ipa": "/ænˈtɪs.ɪ.peɪt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Hành động trước (ai đó), đặc biệt là để ngăn chặn một hành động.",
+    "meaning_en": "To act before (someone), especially to prevent an action.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anxiety",
+    "ipa": "/ˌæŋ(ɡ)ˈzaɪ.ə.ti/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một trạng thái khó chịu của sự bất an về tinh thần, lo lắng, sợ hãi và ám ảnh hoặc lo lắng về một số sự kiện không chắc chắn.",
+    "meaning_en": "An unpleasant state of mental uneasiness, nervousness, apprehension and obsession or concern about some uncertain event.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anxious",
+    "ipa": "/ˈaŋ(k)ʃəs/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Căng thẳng và lo lắng.",
+    "meaning_en": "Nervous and worried.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anxiously",
+    "ipa": "/ˈæŋ(k).ʃəs.li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Một cách lo lắng; với sự không chắc chắn đau đớn; gạ gẫm.",
+    "meaning_en": "In an anxious manner; with painful uncertainty; solicitously.",
+    "example": "He anxiously awaited the arrival of his child.",
+    "cefr": "B1"
+  },
+  {
+    "word": "any",
+    "ipa": "/ˈæni/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Ngay cả ở mức độ nhỏ nhất, ở tất cả.",
+    "meaning_en": "To even the slightest extent, at all.",
+    "example": "I will not remain here any longer.",
+    "cefr": "B1"
+  },
+  {
+    "word": "anybody",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "bất cứ ai",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anyone",
+    "ipa": "/ˈæniˌwʌn/",
+    "partOfSpeech": "pronoun",
+    "meaning_vi": "Bất kỳ người nào, bất kỳ ai.",
+    "meaning_en": "Any person; anybody.",
+    "example": "Almost anyone can change a light bulb.",
+    "cefr": "B1"
+  },
+  {
+    "word": "anything",
+    "ipa": "/ˈɛ.nə.θɪŋ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Ai đó hoặc một cái gì đó quan trọng.",
+    "meaning_en": "Someone or something of importance.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "anyway",
+    "ipa": "/ˈɛniweɪ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Bất kể; dù sao đi nữa.",
+    "meaning_en": "Regardless; anyhow.",
+    "example": "He didn't enjoy washing his car, but it was so dirty that he did it anyway.",
+    "cefr": "B1"
+  },
+  {
+    "word": "anywhere",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "bất cứ chỗ nào, bất cứ nơi đâu",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "apart",
+    "ipa": "/əˈpɑː(ɹ)t/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "(Được sử dụng sau một danh từ hoặc trong vị ngữ) Đặc biệt, khác biệt.",
+    "meaning_en": "(Used after a noun or in the predicate) Exceptional, distinct.",
+    "example": "a world apart",
+    "cefr": "B1"
+  },
+  {
+    "word": "apart from",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "ngoài... ra",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "apartment",
+    "ipa": "/əˈpɑːt.mənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một nơi ở hoàn chỉnh chỉ chiếm một phần của tòa nhà, đặc biệt là một nơi cho thuê; một căn hộ.",
+    "meaning_en": "A complete domicile occupying only part of a building, especially one for rent; a flat.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "apologize",
+    "ipa": "/əˈpɒləd͡ʒaɪz/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "(thường được theo sau bởi \"cho\") Để thực hiện một lời xin lỗi hoặc bào chữa; để thừa nhận một số lỗi hoặc hành vi phạm tội, với biểu hiện hối tiếc về nó, bằng cách sửa đổi",
+    "meaning_en": "(often followed by “for”) To make an apology or excuse; to acknowledge some fault or offense, with expression of regret for it, by way of amends",
+    "example": "My correspondent apologized for not answering my letter.",
+    "cefr": "B1"
+  },
+  {
+    "word": "apparent",
+    "ipa": "/əˈpæ.ɹənt/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Có khả năng được nhìn thấy, hoặc dễ dàng nhìn thấy; mở để xem; có thể nhìn thấy bằng mắt, bằng mắt; trong tầm nhìn hoặc tầm nhìn.",
+    "meaning_en": "Capable of being seen, or easily seen; open to view; visible to the eye, eyely; within sight or view.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "apparently",
+    "ipa": "/əˈpaɹəntli/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Rõ ràng; rõ ràng; rõ ràng; rõ ràng.",
+    "meaning_en": "Plainly; clearly; manifestly; evidently.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "appeal",
+    "ipa": "/əˈpiːl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Đơn yêu cầu loại bỏ một nguyên nhân hoặc vụ kiện từ một thẩm phán hoặc tòa án cấp trên để xem xét lại hoặc xem xét lại.",
+    "meaning_en": "An application for the removal of a cause or suit from an inferior to a superior judge or court for re-examination or review.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "appear",
+    "ipa": "/əˈpiːɹ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "To come or be in sight; to be in view; to become visible.",
+    "meaning_en": "To come or be in sight; to be in view; to become visible.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "appearance",
+    "ipa": "/əˈpɪəɹəns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động xuất hiện hoặc đi vào tầm nhìn; hành động trở nên có thể nhìn thấy bằng mắt.",
+    "meaning_en": "The act of appearing or coming into sight; the act of becoming visible to the eye.",
+    "example": "His sudden appearance surprised me.",
+    "cefr": "B1"
+  },
+  {
+    "word": "apple",
+    "ipa": "/ˈæp.əl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một loại quả tròn, phổ biến được sản xuất bởi cây Malus domestica, được trồng ở vùng khí hậu ôn đới.",
+    "meaning_en": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "application",
+    "ipa": "/aplɪˈkeɪʃ(ə)n/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động áp dụng hoặc đặt lên, theo nghĩa đen",
+    "meaning_en": "The act of applying or laying on, in a literal sense",
+    "example": "The application of this cream should reduce the swelling.",
+    "cefr": "B1"
+  },
+  {
+    "word": "apply",
+    "ipa": "/əˈplaɪ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Nằm hoặc đặt; đặt (thứ này sang thứ khác)",
+    "meaning_en": "To lay or place; to put (one thing to another)",
+    "example": "to apply cream to a rash",
+    "cefr": "B1"
+  },
+  {
+    "word": "appoint",
+    "ipa": "/əˈpɔɪnt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thiết lập, sửa chữa hoặc xác định (thời gian hoặc địa điểm cho một cái gì đó như một cuộc họp, hoặc chính cuộc họp) theo thẩm quyền hoặc thỏa thuận.",
+    "meaning_en": "To set, fix or determine (a time or place for something such as a meeting, or the meeting itself) by authority or agreement.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "appointment",
+    "ipa": "/əˈpɔɪnt.mɛnt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động bổ nhiệm một người giữ chức vụ hoặc có vị trí đáng tin cậy",
+    "meaning_en": "The act of appointing a person to hold an office or to have a position of trust",
+    "example": "His appointment was deemed suitable",
+    "cefr": "B1"
+  },
+  {
+    "word": "appreciate",
+    "ipa": "/əˈpɹiː.si.eɪt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Biết ơn hoặc biết ơn.",
+    "meaning_en": "To be grateful or thankful for.",
+    "example": "I appreciate your efforts",
+    "cefr": "B1"
+  },
+  {
+    "word": "approach",
+    "ipa": "/əˈpɹəʊt͡ʃ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động đến gần; đến gần hoặc tiến gần.",
+    "meaning_en": "The act of drawing near; a coming or advancing near.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "appropriate",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để làm cho phù hợp; để phù hợp.",
+    "meaning_en": "To make suitable; to suit.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "approval",
+    "ipa": "/əˈpɹuːvəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một biểu thức cấp phép; một dấu hiệu của sự đồng ý với một đề xuất; một sự thừa nhận rằng một người, sự vật hoặc sự kiện đáp ứng các yêu cầu.",
+    "meaning_en": "An expression granting permission; an indication of agreement with a proposal; an acknowledgement that a person, thing or event meets requirements.",
+    "example": "I need to get an approval on this purchase order.",
+    "cefr": "B1"
+  },
+  {
+    "word": "approve",
+    "ipa": "/əˈpɹuːv/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Xử phạt chính thức; phê chuẩn; xác nhận; ấn định là đạt yêu cầu.",
+    "meaning_en": "To sanction officially; to ratify; to confirm; to set as satisfactory.",
+    "example": "Although we may disagree with it, we must nevertheless approve the sentence handed down by the court-martial.",
+    "cefr": "B1"
+  },
+  {
+    "word": "approving",
+    "ipa": "/ʌˈpɹuv.ɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Xử phạt chính thức; phê chuẩn; xác nhận; ấn định là đạt yêu cầu.",
+    "meaning_en": "To sanction officially; to ratify; to confirm; to set as satisfactory.",
+    "example": "Although we may disagree with it, we must nevertheless approve the sentence handed down by the court-martial.",
+    "cefr": "B1"
+  },
+  {
+    "word": "approximate",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để ước tính.",
+    "meaning_en": "To estimate.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "approximately",
+    "ipa": "/əˈpɹɒk.sɪ.mət.li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Không chính xác nhưng gần với số lượng hoặc số lượng.",
+    "meaning_en": "Imprecise but close to in quantity or amount.",
+    "example": "...approximately 60 beats per minute.",
+    "cefr": "B1"
+  },
+  {
+    "word": "april",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tháng 4",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "area",
+    "ipa": "/ˈɛə̯ɹɪə̯/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thước đo mức độ của một bề mặt; nó được đo bằng đơn vị vuông.",
+    "meaning_en": "A measure of the extent of a surface; it is measured in square units.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "argue",
+    "ipa": "/ˈɑː.ɡjuː/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Cho thấy căn cứ để kết luận (điều đó); để chỉ ra, ngụ ý.",
+    "meaning_en": "To show grounds for concluding (that); to indicate, imply.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "argument",
+    "ipa": "/ˈɑːɡjʊmənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một sự kiện hoặc tuyên bố được sử dụng để hỗ trợ một đề xuất; một lý do.",
+    "meaning_en": "A fact or statement used to support a proposition; a reason.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "arise",
+    "ipa": "/əˈɹaɪz/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để đi lên từ vị trí thấp hơn đến vị trí cao hơn.",
+    "meaning_en": "To come up from a lower to a higher position.",
+    "example": "to arise from a kneeling posture",
+    "cefr": "B1"
+  },
+  {
+    "word": "arm",
+    "ipa": "/ɑːm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phần của phần phụ trên của con người, từ vai đến cổ tay và đôi khi bao gồm cả bàn tay.",
+    "meaning_en": "The portion of the upper human appendage, from the shoulder to the wrist and sometimes including the hand.",
+    "example": "She stood with her right arm extended and her palm forward to indicate “Stop!”",
+    "cefr": "B1"
+  },
+  {
+    "word": "armed",
+    "ipa": "/ɑːmd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Nắm lấy cánh tay; nâng lên trong vòng tay của một người.",
+    "meaning_en": "To take by the arm; to take up in one's arms.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "arms",
+    "ipa": "/ɑːmz/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phần của phần phụ trên của con người, từ vai đến cổ tay và đôi khi bao gồm cả bàn tay.",
+    "meaning_en": "The portion of the upper human appendage, from the shoulder to the wrist and sometimes including the hand.",
+    "example": "She stood with her right arm extended and her palm forward to indicate “Stop!”",
+    "cefr": "B1"
+  },
+  {
+    "word": "army",
+    "ipa": "/ˈɑː.miː/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một lực lượng quân sự lớn, có tổ chức cao, chủ yếu liên quan đến các hoạt động trên bộ (chứ không phải trên không hoặc trên biển).",
+    "meaning_en": "A large, highly organized military force, concerned mainly with ground (rather than air or naval) operations.",
+    "example": "The army was sent in to quell the uprising.",
+    "cefr": "B1"
+  },
+  {
+    "word": "around",
+    "ipa": "/əˈɹaʊnd/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "(với động từ \"to be\") Có mặt trong vùng lân cận.",
+    "meaning_en": "(with the verb \"to be\") Present in the vicinity.",
+    "example": "Is Clare around today?",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrange",
+    "ipa": "/əˈɹeɪndʒ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Lập; tổ chức; đưa vào trình tự, sắp xếp có trật tự.",
+    "meaning_en": "To set up; to organize; to put into an orderly sequence or arrangement.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrangement",
+    "ipa": "/əˈɹeɪnd͡ʒmənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động sắp xếp.",
+    "meaning_en": "The act of arranging.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrest",
+    "ipa": "/əˈɹɛst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một tấm séc, điểm dừng, một hành động hoặc trường hợp bắt giữ một cái gì đó.",
+    "meaning_en": "A check, stop, an act or instance of arresting something.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrival",
+    "ipa": "/əˈɹaɪ.vəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động đến hoặc một cái gì đó đã đến.",
+    "meaning_en": "The act of arriving or something that has arrived.",
+    "example": "The early arrival of the bride created a stir.",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrive",
+    "ipa": "/əˈɹaɪv/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Tiếp cận; đến một nơi nhất định.",
+    "meaning_en": "To reach; to get to a certain place.",
+    "example": "He arrived home for two days.",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrive at",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Đến;đạt được",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "arrow",
+    "ipa": "/ˈæɹ.əʊ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một viên đạn bao gồm một trục, một điểm và một cái đuôi với vây ổn định được bắn từ một cây cung.",
+    "meaning_en": "A projectile consisting of a shaft, a point and a tail with stabilizing fins that is shot from a bow.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "art",
+    "ipa": "/ɑːt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Việc sản xuất hoặc sắp xếp có ý thức các âm thanh, màu sắc, hình thức, chuyển động hoặc các yếu tố khác theo cách ảnh hưởng đến các giác quan và cảm xúc, thường là đặc biệt là việc sản xuất cái đẹp trong môi trường đồ họa hoặc nhựa.",
+    "meaning_en": "The conscious production or arrangement of sounds, colours, forms, movements, or other elements in a manner that affects the senses and emotions, usually specifically the production of the beautiful in a graphic or plastic medium.",
+    "example": "There is a debate as to whether graffiti is art or vandalism.",
+    "cefr": "B1"
+  },
+  {
+    "word": "article",
+    "ipa": "/ˈɑːtɪkəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một bài viết phi hư cấu như một câu chuyện, báo cáo, ý kiến hoặc mục trong một tờ báo, tạp chí, tạp chí, từ điển, bách khoa toàn thư, v.v.",
+    "meaning_en": "A piece of nonfictional writing such as a story, report, opinion piece, or entry in a newspaper, magazine, journal, dictionary, encyclopedia, etc.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "artificial",
+    "ipa": "/ɑː(ɹ)təˈfɪʃəl/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Nhân tạo; tạo tác.",
+    "meaning_en": "Man-made; of artifice.",
+    "example": "The flowers were artificial, and he thought them rather tacky.",
+    "cefr": "B1"
+  },
+  {
+    "word": "artificially",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "nhân tạo",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "artist",
+    "ipa": "/ˈɑːtɪst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người sáng tạo nghệ thuật.",
+    "meaning_en": "A person who creates art.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "artistic",
+    "ipa": "/ɑːˈtɪstɪk/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Có hoặc bộc lộ kỹ năng sáng tạo.",
+    "meaning_en": "Having or revealing creative skill.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "artistically",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "nghệ thuật",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "as",
+    "ipa": "",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Ở mức độ hoặc mức độ như vậy; ở mức độ hoặc mức độ tương tự.",
+    "meaning_en": "To such an extent or degree; to the same extent or degree.",
+    "example": "It's not as well made, but it's twice as expensive.",
+    "cefr": "B1"
+  },
+  {
+    "word": "ashamed",
+    "ipa": "/əˈʃeɪmd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Cảm thấy xấu hổ; xấu hổ.",
+    "meaning_en": "To feel shame; to be ashamed.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "aside",
+    "ipa": "/əˈsaɪd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một nhận xét ngẫu nhiên được thực hiện một cách lặng lẽ để được lắng nghe bởi người mà nó được nói đến và không phải bởi bất kỳ người nào khác trong vùng lân cận.",
+    "meaning_en": "An incidental remark made quietly so as to be heard by the person to whom it is said and not by any others in the vicinity.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "aside from",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "ngoài ra, trừ ra",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "ask",
+    "ipa": "/ˈask/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hành động hoặc trường hợp yêu cầu.",
+    "meaning_en": "An act or instance of asking.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "asleep",
+    "ipa": "/əˈsliːp/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Trong trạng thái ngủ; nói chung, nghỉ ngơi.",
+    "meaning_en": "In a state of sleep; also, broadly, resting.",
+    "example": "I was asleep when you called.",
+    "cefr": "B1"
+  },
+  {
+    "word": "aspect",
+    "ipa": "/ˈæspɛkt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bất kỳ tính năng, bộ phận hoặc yếu tố cụ thể nào của một cái gì đó.",
+    "meaning_en": "Any specific feature, part, or element of something.",
+    "example": "Japan's aging population is an important aspect of its economy.",
+    "cefr": "B1"
+  },
+  {
+    "word": "assist",
+    "ipa": "/əˈsɪst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hành động hữu ích hoặc một hành động cho đi.",
+    "meaning_en": "A helpful action or an act of giving.",
+    "example": "The foundation gave a much needed assist to the shelter.",
+    "cefr": "B1"
+  },
+  {
+    "word": "assistance",
+    "ipa": "/əˈsɪs.təns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hỗ trợ; giúp đỡ; hành động hoặc kết quả của việc hỗ trợ.",
+    "meaning_en": "Aid; help; the act or result of assisting.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "assistant",
+    "ipa": "/əˈsɪstənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người có mặt; một người ngoài cuộc, một nhân chứng.",
+    "meaning_en": "Someone who is present; a bystander, a witness.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "associate",
+    "ipa": "/əˈsəʊsi.ət/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người hợp nhất với một người khác hoặc những người khác trong một hành động, doanh nghiệp hoặc doanh nghiệp; một đối tác.",
+    "meaning_en": "A person united with another or others in an act, enterprise, or business; a partner.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "associated",
+    "ipa": "/əˈsəʊsieɪtɪd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Tham gia hoặc thành lập một liên minh, công đoàn hoặc hiệp hội.",
+    "meaning_en": "To join in or form a league, union, or association.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "association",
+    "ipa": "/əˌsəʊsiˈeɪʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động liên kết.",
+    "meaning_en": "The act of associating.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "assume",
+    "ipa": "/əˈsuːm/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Xác thực bằng niềm tin; phỏng đoán; giả sử là đúng, đặc biệt là không có bằng chứng",
+    "meaning_en": "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof",
+    "example": "We assume that, as her parents were dentists, she knows quite a bit about dentistry.",
+    "cefr": "B1"
+  },
+  {
+    "word": "assure",
+    "ipa": "/əˈʃɔː/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để đảm bảo và an toàn.",
+    "meaning_en": "To make sure and secure.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "at",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để trả lời hoặc nói chuyện với ai đó, trực tuyến hoặc trực tiếp. (từ việc thực hành nhắm mục tiêu một tin nhắn hoặc trả lời ai đó trực tuyến bằng cách viết @name)",
+    "meaning_en": "To reply to or talk to someone, either online or face-to-face. (from the practice of targeting a message or reply to someone online by writing @name)",
+    "example": "Cars 2 is the most influential film of all time. Don't @ me.",
+    "cefr": "B1"
+  },
+  {
+    "word": "atmosphere",
+    "ipa": "/ˈæt.məsˌfɪə(ɹ)/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Các loại khí bao quanh Trái đất hoặc bất kỳ thiên thể nào.",
+    "meaning_en": "The gases surrounding the Earth or any astronomical body.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "atom",
+    "ipa": "/ˈatəm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Lượng vật chất nhỏ nhất có thể mà vẫn giữ được danh tính của nó như là một nguyên tố hóa học, bây giờ được biết là bao gồm một hạt nhân được bao quanh bởi các electron.",
+    "meaning_en": "The smallest possible amount of matter which still retains its identity as a chemical element, now known to consist of a nucleus surrounded by electrons.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "attach",
+    "ipa": "/əˈtætʃ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Buộc chặt, tham gia (theo nghĩa đen và nghĩa bóng).",
+    "meaning_en": "To fasten, to join to (literally and figuratively).",
+    "example": "An officer is attached to a certain regiment, company, or ship.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attached",
+    "ipa": "/əˈtætʃt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Buộc chặt, tham gia (theo nghĩa đen và nghĩa bóng).",
+    "meaning_en": "To fasten, to join to (literally and figuratively).",
+    "example": "An officer is attached to a certain regiment, company, or ship.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attack",
+    "ipa": "/əˈtæk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một nỗ lực để gây thiệt hại, thương tích hoặc tử vong cho đối thủ hoặc kẻ thù.",
+    "meaning_en": "An attempt to cause damage, injury to, or death of opponent or enemy.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "attempt",
+    "ipa": "/əˈtɛmpt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động thử một cái gì đó.",
+    "meaning_en": "The action of trying at something.",
+    "example": "It was worth the attempt.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attempted",
+    "ipa": "/əˈtɛmptɪd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "- Để thử làm gì đó.",
+    "meaning_en": "To try.",
+    "example": "A group of 80 budding mountaineers attempted Kilimanjaro, but 30 of them didn't make it to the top.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attend",
+    "ipa": "/əˈtɛnd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Lắng nghe (điều gì đó hoặc ai đó); chú ý; quan tâm; chú ý.",
+    "meaning_en": "To listen to (something or someone); to pay attention to; regard; heed.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "attend to",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Chú trọng, chăm lo.",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "attention",
+    "ipa": "/əˈtɛn.ʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Sự tập trung tinh thần.",
+    "meaning_en": "Mental focus.",
+    "example": "Please direct your attention to the following words.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attitude",
+    "ipa": "/ˈætɪˌtjuːd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Vị trí của cơ thể hoặc cách tự mang mình.",
+    "meaning_en": "The position of the body or way of carrying oneself.",
+    "example": "The ballet dancer walked with a graceful attitude.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attorney",
+    "ipa": "/əˈtɜː(ɹ)ni/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một luật sư; một người tư vấn hoặc đại diện cho người khác trong các vấn đề pháp lý như một nghề nghiệp.",
+    "meaning_en": "A lawyer; one who advises or represents others in legal matters as a profession.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "attract",
+    "ipa": "/əˈtɹækt/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Kéo về phía trước mà không chạm vào.",
+    "meaning_en": "To pull toward without touching.",
+    "example": "A magnet attracts iron filings.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attraction",
+    "ipa": "/əˈtɹækʃən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Xu hướng thu hút.",
+    "meaning_en": "The tendency to attract.",
+    "example": "The Moon is held in its orbit by the attraction of the Earth's gravity.",
+    "cefr": "B1"
+  },
+  {
+    "word": "attractive",
+    "ipa": "/əˈtɹæktɪv/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Gây thu hút; có phẩm chất thu hút bằng sức mạnh vốn có.",
+    "meaning_en": "Causing attraction; having the quality of attracting by inherent force.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "audience",
+    "ipa": "/ˈɔːdi.əns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một nhóm người trong phiên điều trần; cụ thể là một tập hợp lớn những người nghe hoặc xem một buổi biểu diễn, bài phát biểu, v.v.",
+    "meaning_en": "A group of people within hearing; specifically, a large gathering of people listening to or watching a performance, speech, etc.",
+    "example": "We joined the audience just as the lights went down.",
+    "cefr": "B1"
+  },
+  {
+    "word": "august",
+    "ipa": "/ɔːˈɡʌst/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Đầy cảm hứng, uy nghi, cao quý, đáng kính.",
+    "meaning_en": "Awe-inspiring, majestic, noble, venerable.",
+    "example": "an august patron of the arts",
+    "cefr": "B1"
+  },
+  {
+    "word": "aunt",
+    "ipa": "/ɑ(ː)nt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Chị/em dâu hoặc chị/em dâu của cha/mẹ.",
+    "meaning_en": "The sister or sister-in-law of one’s parent.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "author",
+    "ipa": "/ˈɔː.θə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Người khởi tạo hoặc tác giả của một tác phẩm, đặc biệt là một tác phẩm văn học.",
+    "meaning_en": "The originator or creator of a work, especially of a literary composition.",
+    "example": "Have you read any Corinthian authors?",
+    "cefr": "B1"
+  },
+  {
+    "word": "authority",
+    "ipa": "/ɔːˈθɒɹəti/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Quyền thực thi các quy tắc hoặc ra lệnh.",
+    "meaning_en": "The power to enforce rules or give orders.",
+    "example": "I have the authority to penalise the staff in my department, but not the authority to sack them.",
+    "cefr": "B1"
+  },
+  {
+    "word": "automatic",
+    "ipa": "/ˌɔːtəˈmætɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một chiếc xe có hộp số tự động.",
+    "meaning_en": "A car with automatic transmission.",
+    "example": "I never learned to drive a stick. I can only drive an automatic.",
+    "cefr": "B1"
+  },
+  {
+    "word": "automatically",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tự động",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "autumn",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "mùa thu",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "available",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Còn trống",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "average",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "trung bình",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "avoid",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tránh, tránh xa",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "awake",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đánh thức",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "award",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "phần thưởng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "aware",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "nhận thức",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "away",
+    "ipa": "/əˈweɪ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Khởi hành; đi đến một nơi khác.",
+    "meaning_en": "To depart; to go to another place.",
+    "example": "At 9 o'clock sharp he awayed to bed.",
+    "cefr": "B1"
+  },
+  {
+    "word": "awful",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "khủng khiếp",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "awfully",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "khủng khiếp",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "awkward",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "vụng về, lung túng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "awkwardly",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "vụng về, lung túng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "baby",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "em bé",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "back",
+    "ipa": "/bæk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phần sau của cơ thể, đặc biệt là phần giữa cổ và cuối cột sống và đối diện với ngực và bụng.",
+    "meaning_en": "The rear of the body, especially the part between the neck and the end of the spine and opposite the chest and belly.",
+    "example": "Could you please scratch my back?",
+    "cefr": "B1"
+  },
+  {
+    "word": "background",
+    "ipa": "/ˈbæk.ɡɹaʊnd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Di sản xã hội của một người, hoặc kiếp trước; những gì một người đã làm trong quá khứ.",
+    "meaning_en": "One's social heritage, or previous life; what one did in the past.",
+    "example": "The lawyer had a background in computer science.",
+    "cefr": "B1"
+  },
+  {
+    "word": "back up",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đảo ngược chiều",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "backward",
+    "ipa": "/ˈbæk.wə(ɹ)d/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Trạng thái đằng sau hoặc quá khứ.",
+    "meaning_en": "The state behind or past.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "backwards",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Ngược",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bacteria",
+    "ipa": "/bækˈtɪəɹ.ɪ.ə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một loại, loài hoặc chủng vi khuẩn.",
+    "meaning_en": "A type, species, or strain of bacterium.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bad",
+    "ipa": "/bæːd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Lỗi; lỗi lầm.",
+    "meaning_en": "Error, mistake.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "badly",
+    "ipa": "/ˈbæd.li/",
+    "partOfSpeech": "adjective",
+    "meaning_vi": "Ốm, không khỏe.",
+    "meaning_en": "Ill, unwell.",
+    "example": "He's never badly.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bad-tempered",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "xấu tính, dễ nồi cáu",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bag",
+    "ipa": "/ˈbæːɡ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hộp đựng linh hoạt làm bằng vải, giấy, nhựa, v.v.",
+    "meaning_en": "A flexible container made of cloth, paper, plastic, etc.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "baggage",
+    "ipa": "/ˈbæɡɪdʒ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(thường là không đếm được) Hành lý; thiết bị đi lại",
+    "meaning_en": "(usually uncountable) Luggage; traveling equipment",
+    "example": "Please put your baggage in the trunk.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bake",
+    "ipa": "/beɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động nấu thức ăn bằng cách nướng.",
+    "meaning_en": "The act of cooking food by baking.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "balance",
+    "ipa": "/ˈbæləns/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một trạng thái trong đó các lực lượng đối lập hài hòa; trạng thái cân bằng.",
+    "meaning_en": "A state in which opposing forces harmonise; equilibrium.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "ball",
+    "ipa": "/bɔːl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hình cầu rắn hoặc rỗng, hoặc khối cầu gần như hình cầu.",
+    "meaning_en": "A solid or hollow sphere, or roughly spherical mass.",
+    "example": "a ball of spittle; a fecal ball",
+    "cefr": "B1"
+  },
+  {
+    "word": "ban",
+    "ipa": "/bæn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "sự cấm",
+    "meaning_en": "Prohibition.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "band",
+    "ipa": "/bænd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một dải vật liệu được sử dụng để gia cố hoặc ghép nối.",
+    "meaning_en": "A strip of material used for strengthening or coupling.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bandage",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "dải băng; băng bỏ",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bank",
+    "ipa": "/bæŋk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một tổ chức nơi người ta có thể đặt và vay tiền và chăm sóc các vấn đề tài chính.",
+    "meaning_en": "An institution where one can place and borrow money and take care of financial affairs.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bar",
+    "ipa": "/bɑː/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một vật thể rắn, ít nhiều cứng bằng kim loại hoặc gỗ có tiết diện đồng đều nhỏ hơn chiều dài của nó.",
+    "meaning_en": "A solid, more or less rigid object of metal or wood with a uniform cross-section smaller than its length.",
+    "example": "The window was protected by steel bars.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bargain",
+    "ipa": "/-ɡɪn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thỏa thuận giữa các bên liên quan đến việc bán tài sản; hoặc một hợp đồng mà một bên ràng buộc mình để chuyển giao quyền đối với một số tài sản để xem xét, và bên kia ràng buộc mình để nhận tài sản và trả tiền xem xét.",
+    "meaning_en": "An agreement between parties concerning the sale of property; or a contract by which one party binds himself to transfer the right to some property for a consideration, and the other party binds himself to receive the property and pay the consideration.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "barrier",
+    "ipa": "/ˈbæɹi.ə(ɹ)/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cấu trúc chặn lối đi.",
+    "meaning_en": "A structure that bars passage.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "base",
+    "ipa": "/beɪs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cái gì đó mà từ đó những thứ khác mở rộng; một nền tảng.",
+    "meaning_en": "Something from which other things extend; a foundation.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "based",
+    "ipa": "/beɪst/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để làm nền tảng hoặc điểm khởi đầu của nó; để đặt nền tảng của.",
+    "meaning_en": "To give as its foundation or starting point; to lay the foundation of.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "base on",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "dựa trên",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "basic",
+    "ipa": "/ˈbeɪsɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một mặt hàng cần thiết, một yêu cầu thiết yếu.",
+    "meaning_en": "A necessary commodity, a staple requirement.",
+    "example": "Rice is a basic for many Asian villagers.",
+    "cefr": "B1"
+  },
+  {
+    "word": "basically",
+    "ipa": "/ˈbeɪsɪk(ə)li/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Theo cách cơ bản, thiết yếu hoặc cơ bản",
+    "meaning_en": "In a fundamental, essential or basic manner",
+    "example": "They've added some fancy features, but it's basically still a car.",
+    "cefr": "B1"
+  },
+  {
+    "word": "basis",
+    "ipa": "/ˈbeɪsɪs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cơ sở vật chất hoặc nền móng.",
+    "meaning_en": "A physical base or foundation.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bath",
+    "ipa": "/bɐːθ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bồn tắm hoặc hồ bơi được sử dụng để tắm: bồn tắm.",
+    "meaning_en": "A tub or pool which is used for bathing: bathtub.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bathroom",
+    "ipa": "/ˈbæθ.ɹuːm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phòng có vòi sen và/hoặc bồn tắm, và (thường nhưng không nhất thiết) có nhà vệ sinh.",
+    "meaning_en": "A room containing a shower and/or bathtub, and (typically but not necessarily) a toilet.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "battery",
+    "ipa": "/ˈbætəɹi/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Thiết bị được sử dụng để cấp điện cho các thiết bị điện, bao gồm một tập hợp các tế bào điện hóa được kết nối điện hoặc, về mặt cổ điển, các tế bào tĩnh điện. Một tế bào như vậy khi được sử dụng bởi chính nó.",
+    "meaning_en": "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "battle",
+    "ipa": "/ˈbætəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cuộc thi, một cuộc đấu tranh.",
+    "meaning_en": "A contest, a struggle.",
+    "example": "the battle of life",
+    "cefr": "B1"
+  },
+  {
+    "word": "bay",
+    "ipa": "/beɪ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một quả mọng.",
+    "meaning_en": "A berry.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "be",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "BE",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beach",
+    "ipa": "/biːt͡ʃ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bờ biển của một vùng nước, đặc biệt là khi cát hoặc sỏi.",
+    "meaning_en": "The shore of a body of water, especially when sandy or pebbly.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beak",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "mỏ chim",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bear",
+    "ipa": "/bɛə(ɹ)/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một loài động vật có vú ăn tạp lớn, liên quan đến chó và gấu trúc, có lông xù xì, đuôi rất nhỏ và bàn chân phẳng; một thành viên của họ Ursidae.",
+    "meaning_en": "A large omnivorous mammal, related to the dog and raccoon, having shaggy hair, a very small tail, and flat feet; a member of family Ursidae.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beard",
+    "ipa": "/bɪəd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Lông mặt trên cằm, má, hàm và cổ.",
+    "meaning_en": "Facial hair on the chin, cheeks, jaw and neck.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beat",
+    "ipa": "/biːt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một cú đánh; một cú đánh.",
+    "meaning_en": "A stroke; a blow.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beat up",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đánh đập",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beautiful",
+    "ipa": "/ˈbjuːtɪfəl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người xinh đẹp. Có thể được sử dụng như một thuật ngữ địa chỉ.",
+    "meaning_en": "Someone who is beautiful. Can be used as a term of address.",
+    "example": "Hey, beautiful!",
+    "cefr": "B1"
+  },
+  {
+    "word": "beautifully",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tốt đẹp, đáng hài lỏng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beauty",
+    "ipa": "/ˈbuːti/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Chất lượng (đặc biệt là trực quan) hấp dẫn, dễ chịu, đẹp hoặc đẹp mắt; sự duyên dáng.",
+    "meaning_en": "The quality of being (especially visually) attractive, pleasing, fine or good-looking; comeliness.",
+    "example": "1988, \"… beauty and recollection, like danger, glamour, greed, hunger- everything but disappointment and desire- were concepts belonging to other people.” -Second Son, Robert Ferro",
+    "cefr": "B1"
+  },
+  {
+    "word": "because",
+    "ipa": "/bɪˈkɒz/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Vì lý do (đó).",
+    "meaning_en": "For the reason (that).",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "because of",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "vì, do bởi",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "become",
+    "ipa": "/bəˈkʊm/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để đến nơi, hãy đến (đến một nơi).",
+    "meaning_en": "To arrive, come (to a place).",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bed",
+    "ipa": "/bed/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một mảnh đồ nội thất, thường bằng phẳng và mềm mại, để nghỉ ngơi hoặc ngủ.",
+    "meaning_en": "A piece of furniture, usually flat and soft, on which to rest or sleep.",
+    "example": "My cat often sleeps on my bed.\nI keep a glass of water next to my bed when I sleep.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bedroom",
+    "ipa": "/ˈbɛdɹʊm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một căn phòng trong một ngôi nhà nơi một chiếc giường được giữ để ngủ.",
+    "meaning_en": "A room in a house where a bed is kept for sleeping.",
+    "example": "Please don't enter my bedroom without knocking.",
+    "cefr": "B1"
+  },
+  {
+    "word": "beef",
+    "ipa": "/biːf/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Thịt từ bò, bò đực hoặc bò khác.",
+    "meaning_en": "The meat from a cow, bull or other bovine.",
+    "example": "I love eating beef.",
+    "cefr": "B1"
+  },
+  {
+    "word": "beer",
+    "ipa": "/bɛə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Đồ uống có cồn lên men từ nguyên liệu tinh bột, thường là mạch nha lúa mạch, thường có hoa bia hoặc một số chất khác để tạo vị đắng.",
+    "meaning_en": "An alcoholic drink fermented from starch material, commonly barley malt, often with hops or some other substance to impart a bitter flavor.",
+    "example": "Beer is brewed all over the world.",
+    "cefr": "B1"
+  },
+  {
+    "word": "before",
+    "ipa": "/bɪˈfɔː/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Tại một thời điểm trước đó.",
+    "meaning_en": "At an earlier time.",
+    "example": "I've never done this before.",
+    "cefr": "B1"
+  },
+  {
+    "word": "begin",
+    "ipa": "/biˈɡɪn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bắt đầu; bắt đầu.",
+    "meaning_en": "Beginning; start.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beginning",
+    "ipa": "/bɪˈɡɪn.ɪŋ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động làm bất cứ điều gì bắt đầu; bắt đầu một hành động, trạng thái hoặc khoảng thời gian; bắt đầu hiện hữu hoặc theo một khóa học; hành động, nỗ lực hoặc trạng thái đầu tiên của một loạt các hành vi hoặc trạng thái.",
+    "meaning_en": "The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "behalf",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "sự thay mặt",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "behave",
+    "ipa": "/bəˈheɪv/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để thực hiện (bản thân) tốt, hoặc theo một cách nhất định.",
+    "meaning_en": "To conduct (oneself) well, or in a given way.",
+    "example": "You need to behave yourself, young lady.",
+    "cefr": "B1"
+  },
+  {
+    "word": "behaviour",
+    "ipa": "/bɪˈheɪvjə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Cách một sinh vật sống cư xử hoặc hành động.",
+    "meaning_en": "The way a living creature behaves or acts.",
+    "example": "She can't stop the strange behaviour because she has OCD (obsessive-compulsive disorder).",
+    "cefr": "B1"
+  },
+  {
+    "word": "behind",
+    "ipa": "/bəˈhaɪnd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Mặt sau, mặt sau",
+    "meaning_en": "The rear, back-end",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "be left over",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "được để lại",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "belief",
+    "ipa": "/bəˈliːf/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Chấp nhận về mặt tinh thần một tuyên bố là đúng.",
+    "meaning_en": "Mental acceptance of a claim as true.",
+    "example": "It's my belief that the thief is somebody known to us.",
+    "cefr": "B1"
+  },
+  {
+    "word": "believe",
+    "ipa": "/bɪˈliːv/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Chấp nhận là đúng, đặc biệt là không có sự chắc chắn tuyệt đối (tức là, trái ngược với việc biết)",
+    "meaning_en": "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)",
+    "example": "I believe there are faeries.",
+    "cefr": "B1"
+  },
+  {
+    "word": "believe in",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Hãy tin vào điều đó !”. ",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bell",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "cái chuông, tiếng chuông",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "belong",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "thuộc về, của, thuộc quyển sở hữu",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "belong to",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "trực thuộc",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "below",
+    "ipa": "/bɪˈləʊ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Dưới đây, một nơi nào đó.",
+    "meaning_en": "In a lower place.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "belt",
+    "ipa": "/bɛlt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một dây đeo quanh eo để giữ quần áo sát vào cơ thể (thường là quần), giữ vũ khí (như súng hoặc kiếm), hoặc dùng như một bộ quần áo trang trí.",
+    "meaning_en": "A band worn around the waist to hold clothing to one's body (usually pants), hold weapons (such as a gun or sword), or serve as a decorative piece of clothing.",
+    "example": "As part of the act, the fat clown's belt broke, causing his pants to fall down.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bend",
+    "ipa": "/bɛnd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một đường cong.",
+    "meaning_en": "A curve.",
+    "example": "There's a sharp bend in the road ahead.",
+    "cefr": "B1"
+  },
+  {
+    "word": "beneath",
+    "ipa": "/bɪˈniːθ/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Bên dưới hoặc bên dưới.",
+    "meaning_en": "Below or underneath.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "benefit",
+    "ipa": "/ˈbɛn.ɪ.fɪt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một lợi thế; giúp đỡ hoặc hỗ trợ từ một cái gì đó.",
+    "meaning_en": "An advantage; help or aid from something.",
+    "example": "It was for her benefit.   His benefit was free beer.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bent",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "khiếu, sở thích, khuynh hướng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beside",
+    "ipa": "/bɪˈsaɪd/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "Nếu không; nếu không.",
+    "meaning_en": "Otherwise; else.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "best",
+    "ipa": "/ˈbɛst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Nỗ lực tối cao mà một người có thể thực hiện, hoặc đã thực hiện.",
+    "meaning_en": "The supreme effort one can make, or has made.",
+    "example": "I did my best.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bet",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đặt cược",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "better",
+    "ipa": "[ˈbeɾə]",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thực thể, thường là hoạt hình, được coi là vượt trội so với một thực thể khác; một thực thể có quyền ưu tiên; một cấp trên.",
+    "meaning_en": "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior.",
+    "example": "He quickly found Ali his better in the ring.",
+    "cefr": "B1"
+  },
+  {
+    "word": "betting",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đặt cược",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "between",
+    "ipa": "/bɪˈtwiːn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một loại kim, ngắn hơn một mũi nhọn, với một con mắt tròn nhỏ, được sử dụng để tạo ra các mũi khâu tốt trên các loại vải nặng.",
+    "meaning_en": "A kind of needle, shorter than a sharp, with a small rounded eye, used for making fine stitches on heavy fabrics.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "beyond",
+    "ipa": "/biˈjɒnd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Những điều mà ta chưa biết",
+    "meaning_en": "The unknown.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bicycle",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "xe đạp",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "big",
+    "ipa": "/bɪɡ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người nào đó hoặc một cái gì đó có tầm vóc lớn",
+    "meaning_en": "Someone or something that is large in stature",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bike",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "xe đạp",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bill",
+    "ipa": "/bɪl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bất kỳ vũ khí cầm tay có cánh hoặc nhọn nào khác nhau, ban đầu chỉ định một thanh kiếm Anglo-Saxon, và sau đó là vũ khí của bộ binh, đặc biệt là vào thế kỷ 14 và 15, thường bao gồm một lưỡi kiếm rộng, nặng, hai lưỡi, hình lưỡi câu, với một cái cọc ngắn ở phía sau và một cái khác ở phía trên, gắn vào đầu của một cây gậy dài.",
+    "meaning_en": "Any of various bladed or pointed hand weapons, originally designating an Anglo-Saxon sword, and later a weapon of infantry, especially in the 14th and 15th centuries, commonly consisting of a broad, heavy, double-edged, hook-shaped blade, with a short pike at the back and another at the top, attached to the end of a long staff.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "billion",
+    "ipa": "/ˈbɪljən/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(hiện đại Anh & Úc, quy mô ngắn) một nghìn triệu (logic: 1.000 × 1.000^2): 1 theo sau là chín số không, 109; một miliard",
+    "meaning_en": "(modern British & Australian, short scale) a thousand million (logic: 1,000 × 1,000^2): 1 followed by nine zeros, 109; a milliard",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bin",
+    "ipa": "/bɪn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hộp, khung, cũi hoặc nơi kín, được sử dụng làm thùng chứa.",
+    "meaning_en": "A box, frame, crib, or enclosed place, used as a storage container.",
+    "example": "a corn bin; a wine bin; a coal bin",
+    "cefr": "B1"
+  },
+  {
+    "word": "biology",
+    "ipa": "/baɪˈɒlədʒɪ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Nghiên cứu về tất cả sự sống hoặc vật chất sống.",
+    "meaning_en": "The study of all life or living matter.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bird",
+    "ipa": "/bɜd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thành viên của lớp động vật Aves trong ngành Chordata, đặc trưng bởi máu nóng, có lông và cánh thường có khả năng bay, và đẻ trứng.",
+    "meaning_en": "A member of the class of animals Aves in the phylum Chordata, characterized by being warm-blooded, having feathers and wings usually capable of flight, and laying eggs.",
+    "example": "Ducks and sparrows are birds.",
+    "cefr": "B1"
+  },
+  {
+    "word": "birth",
+    "ipa": "/bɜːθ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Quá trình sinh đẻ; sự khởi đầu của cuộc sống.",
+    "meaning_en": "The process of childbearing; the beginning of life.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "birthday",
+    "ipa": "/ˈbɜːθ.deɪ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Kỷ niệm ngày ai đó được sinh ra.",
+    "meaning_en": "The anniversary of the day on which someone is born.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "biscuit",
+    "ipa": "/ˈbɪskɪt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(hiếm ở Mỹ) Một loại bánh nướng nhỏ, phẳng, cứng và giòn hoặc mềm nhưng chắc: một chiếc bánh quy.",
+    "meaning_en": "(rare in the US) A small, flat, baked good which is either hard and crisp or else soft but firm: a cookie.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bit",
+    "ipa": "/bɪt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một miếng kim loại được đặt trong miệng ngựa và nối với dây cương để điều khiển con vật.",
+    "meaning_en": "A piece of metal placed in a horse's mouth and connected to the reins to direct the animal.",
+    "example": "A horse hates having a bit put in its mouth.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bite",
+    "ipa": "/bʌɪt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động cắn.",
+    "meaning_en": "The act of biting.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bitter",
+    "ipa": "/ˈbɪtə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "(thường ở vị đắng số nhiều) Một chất lỏng hoặc bột, được làm từ các loại thảo mộc đắng, được sử dụng trong đồ uống hỗn hợp hoặc như một loại thuốc bổ.",
+    "meaning_en": "(usually in the plural bitters) A liquid or powder, made from bitter herbs, used in mixed drinks or as a tonic.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bitterly",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đắng cay, chua xót",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "black",
+    "ipa": "/blak/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Màu sắc/màu sắc được cảm nhận khi không có ánh sáng, nhưng cũng khi không có ánh sáng nào được phản chiếu, mà là bị hấp thụ.",
+    "meaning_en": "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blade",
+    "ipa": "/bleɪd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Lưỡi cắt sắc bén của dao, đục hoặc dụng cụ khác, dao cạo/kiếm.",
+    "meaning_en": "The sharp cutting edge of a knife, chisel, or other tool, a razor blade/sword.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blame",
+    "ipa": "/bleɪm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Khiển trách nhắc nhở",
+    "meaning_en": "Censure.",
+    "example": "Blame came from all directions.",
+    "cefr": "B1"
+  },
+  {
+    "word": "blank",
+    "ipa": "/blæŋk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một đồng xu nhỏ của Pháp, ban đầu bằng bạc, sau đó bằng đồng, trị giá 5 từ chối; cũng là một đồng xu bạc của Henry V hiện tại ở các vùng của Pháp sau đó được người Anh nắm giữ, trị giá khoảng 8 xu .",
+    "meaning_en": "A small French coin, originally of silver, afterwards of copper, worth 5 deniers; also a silver coin of Henry V current in the parts of France then held by the English, worth about 8 pence .",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blind",
+    "ipa": "/blaɪnd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Tấm che cửa sổ để tránh ánh sáng. Lớp phủ có thể được làm bằng vải hoặc các thanh hẹp có thể chặn ánh sáng hoặc cho phép nó đi qua.",
+    "meaning_en": "A covering for a window to keep out light. The covering may be made of cloth or of narrow slats that can block light or allow it to pass.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "block",
+    "ipa": "/blɒk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một phần đáng kể, thường là hình khối, của chất bất kỳ.",
+    "meaning_en": "A substantial, often approximately cuboid, piece of any substance.",
+    "example": "a block of ice",
+    "cefr": "B1"
+  },
+  {
+    "word": "blonde",
+    "ipa": "/blɒnd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Màu vàng nhạt (nâu vàng), đặc biệt là màu tóc.",
+    "meaning_en": "A pale yellowish (golden brown) color, especially said of hair color.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blood",
+    "ipa": "/blʊd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thành viên của băng đảng Los Angeles The Bloods.",
+    "meaning_en": "A member of the Los Angeles gang The Bloods.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blow",
+    "ipa": "/bləʊ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "cơn gió mạnh",
+    "meaning_en": "A strong wind.",
+    "example": "We're having a bit of a blow this afternoon.",
+    "cefr": "B1"
+  },
+  {
+    "word": "blow out",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "sự phun trào",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blow up",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Nổi đóa",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "blue",
+    "ipa": "/bluː/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Màu của bầu trời trong hoặc biển sâu, giữa màu xanh lá cây và màu tím trong phổ nhìn thấy được, và một trong những màu phụ gia chính cho ánh sáng truyền qua; màu thu được bằng cách trừ màu đỏ và màu xanh lá cây khỏi ánh sáng trắng bằng cách sử dụng bộ lọc màu đỏ tươi và màu lục lam; hoặc bất kỳ màu nào tương tự như màu này.",
+    "meaning_en": "The colour of the clear sky or the deep sea, between green and violet in the visible spectrum, and one of the primary additive colours for transmitted light; the colour obtained by subtracting red and green from white light using magenta and cyan filters; or any colour resembling this.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "board",
+    "ipa": "/bɔːd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một mảnh tương đối dài, rộng và mỏng của bất kỳ vật liệu nào, thường là gỗ hoặc tương tự, thường được sử dụng trong xây dựng hoặc làm đồ nội thất.",
+    "meaning_en": "A relatively long, wide and thin piece of any material, usually wood or similar, often for use in construction or furniture-making.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "boat",
+    "ipa": "/bəʊt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một chiếc tàu được sử dụng để vận chuyển hàng hóa, câu cá, đua xe, du thuyền giải trí hoặc sử dụng cho mục đích quân sự trên hoặc dưới nước, được đẩy bằng mái chèo hoặc động cơ phía ngoài hoặc động cơ phía trong hoặc bằng gió.",
+    "meaning_en": "A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "body",
+    "ipa": "/ˈbɒdi/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Khung vật lý.",
+    "meaning_en": "Physical frame.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "boil",
+    "ipa": "/bɔɪl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Sự tích tụ cục bộ của mủ trong da, do nhiễm trùng.",
+    "meaning_en": "A localized accumulation of pus in the skin, resulting from infection.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bomb",
+    "ipa": "/bɒm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thiết bị nổ được sử dụng hoặc dự định làm vũ khí.",
+    "meaning_en": "An explosive device used or intended as a weapon.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bone",
+    "ipa": "/bəʉn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Vật liệu composit bao gồm phần lớn canxi phosphat và collagen và tạo nên bộ xương của hầu hết các động vật có xương sống.",
+    "meaning_en": "A composite material consisting largely of calcium phosphate and collagen and making up the skeleton of most vertebrates.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "book",
+    "ipa": "/buːk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một bộ sưu tập các tờ giấy được liên kết với nhau để bản lề ở một cạnh, chứa tài liệu in hoặc viết, hình ảnh, v.v.",
+    "meaning_en": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+    "example": "He was frustrated because he couldn't find anything about dinosaurs in the book.",
+    "cefr": "B1"
+  },
+  {
+    "word": "boot",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "giày ống",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "border",
+    "ipa": "/ˈbɔədə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Rìa ngoài của một cái gì đó.",
+    "meaning_en": "The outer edge of something.",
+    "example": "the borders of the garden",
+    "cefr": "B1"
+  },
+  {
+    "word": "bore",
+    "ipa": "/bɔː/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một lỗ được khoan hoặc nghiền qua một cái gì đó, hoặc (bằng cách mở rộng) đường kính của nó.",
+    "meaning_en": "A hole drilled or milled through something, or (by extension) its diameter.",
+    "example": "the bore of a cannon",
+    "cefr": "B1"
+  },
+  {
+    "word": "bored",
+    "ipa": "/bɔːd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để truyền cảm hứng cho sự nhàm chán ở ai đó.",
+    "meaning_en": "To inspire boredom in somebody.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "boring",
+    "ipa": "/ˈbɔːɹɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để truyền cảm hứng cho sự nhàm chán ở ai đó.",
+    "meaning_en": "To inspire boredom in somebody.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "born",
+    "ipa": "/ˈbɔːn/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Mang theo hoặc chuyển tải, theo nghĩa đen hoặc nghĩa bóng.",
+    "meaning_en": "To carry or convey, literally or figuratively.",
+    "example": "Judging from the look on his face, he wasn't bearing good news.",
+    "cefr": "B1"
+  },
+  {
+    "word": "borrow",
+    "ipa": "/ˈbɔɹoʊ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Độ lệch đường đi của một quả bóng lăn so với đường thẳng; độ dốc; độ nghiêng.",
+    "meaning_en": "Deviation of the path of a rolling ball from a straight line; slope; slant.",
+    "example": "This putt has a big left-to right borrow on it.",
+    "cefr": "B1"
+  },
+  {
+    "word": "boss",
+    "ipa": "/bɑs/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người giám sát và chỉ đạo công việc của người khác; một người giám sát.",
+    "meaning_en": "A person who oversees and directs the work of others; a supervisor.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "both",
+    "ipa": "/bəʊθ/",
+    "partOfSpeech": "pronoun",
+    "meaning_vi": "Mỗi loại trong hai loại, hoặc cả hai.",
+    "meaning_en": "Each of the two, or of the two kinds.",
+    "example": "\"Did you want this one or that one?\" — \"Give me both.\"",
+    "cefr": "B1"
+  },
+  {
+    "word": "bother",
+    "ipa": "[ˈbɔðə(ɹ)]",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Fuss, ado.",
+    "meaning_en": "Fuss, ado.",
+    "example": "There was a bit of bother at the hairdresser's when they couldn't find my appointment in the book.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bottle",
+    "ipa": "/ˈbɑ.təl/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một thùng chứa, thường được làm bằng thủy tinh hoặc nhựa và có cổ thon, được sử dụng chủ yếu để chứa chất lỏng.",
+    "meaning_en": "A container, typically made of glass or plastic and having a tapered neck, used primarily for holding liquids.",
+    "example": "Beer is often sold in bottles.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bottom",
+    "ipa": "/ˈbɒtəm/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phần thấp nhất của bất cứ thứ gì.",
+    "meaning_en": "The lowest part of anything.",
+    "example": "Footers appear at the bottoms of pages.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bound",
+    "ipa": "/ˈbaʊnd/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Buộc; hạn chế bằng bất kỳ dây buộc nào.",
+    "meaning_en": "To tie; to confine by any ligature.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bowl",
+    "ipa": "/bəʊɫ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một hộp đựng hình bán cầu được sử dụng để đựng, trộn hoặc trình bày thực phẩm, chẳng hạn như salad, trái cây hoặc súp, hoặc các mặt hàng khác.",
+    "meaning_en": "A roughly hemispherical container used to hold, mix or present food, such as salad, fruit or soup, or other items.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "box",
+    "ipa": "/bɒks/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Các giác quan liên quan đến một vật thể hoặc không gian ba chiều.",
+    "meaning_en": "Senses relating to a three-dimensional object or space.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "boy",
+    "ipa": "/bɔːə/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một người đàn ông trẻ tuổi.",
+    "meaning_en": "A young male.",
+    "example": "Kate is dating a boy named Jim.",
+    "cefr": "B1"
+  },
+  {
+    "word": "boyfriend",
+    "ipa": "/ˈbɔɪfɹənd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một đối tác nam trong một mối quan hệ lãng mạn chưa kết hôn.",
+    "meaning_en": "A male partner in an unmarried romantic relationship.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "brain",
+    "ipa": "/bɹeɪn/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Trung tâm điều khiển hệ thần kinh trung ương của một con vật nằm trong hộp sọ chịu trách nhiệm về nhận thức, nhận thức, sự chú ý, trí nhớ, cảm xúc và hành động.",
+    "meaning_en": "The control center of the central nervous system of an animal located in the skull which is responsible for perception, cognition, attention, memory, emotion, and action.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "branch",
+    "ipa": "/bɹæntʃ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Phần gỗ của cây phát sinh từ thân cây và thường phân chia.",
+    "meaning_en": "The woody part of a tree arising from the trunk and usually dividing.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "brand",
+    "ipa": "/bɹand/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một đám cháy; một ngọn lửa.",
+    "meaning_en": "A conflagration; a flame.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "brave",
+    "ipa": "/bɹeɪv/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một chiến binh người Mỹ bản địa.",
+    "meaning_en": "A Native American warrior.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bread",
+    "ipa": "/bɹeːd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một loại thực phẩm làm từ bột nhào làm từ ngũ cốc.",
+    "meaning_en": "A foodstuff made by baking dough made from cereals.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "break",
+    "ipa": "/bɹeɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một ví dụ về việc phá vỡ một cái gì đó thành hai hoặc nhiều mảnh.",
+    "meaning_en": "An instance of breaking something into two or more pieces.",
+    "example": "The femur has a clean break and so should heal easily.",
+    "cefr": "B1"
+  },
+  {
+    "word": "break down",
+    "ipa": "",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Thất bại, ngừng hoạt động.",
+    "meaning_en": "To fail, to cease to function.",
+    "example": "I am afraid my computer will break down if I try to run it at too high a speed.",
+    "cefr": "B1"
+  },
+  {
+    "word": "breakfast",
+    "ipa": "/ˈbɹɛkfəst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bữa ăn đầu tiên trong ngày, thường ăn vào buổi sáng.",
+    "meaning_en": "The first meal of the day, usually eaten in the morning.",
+    "example": "You should put more protein in her breakfast so she will grow.",
+    "cefr": "B1"
+  },
+  {
+    "word": "break in",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đột nhập",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "break into",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "đột nhập vào",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "break off",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "bị gãy;bị vỡ ra",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "break out",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tháo gỡ",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "break up",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tháo dỡ",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "breast",
+    "ipa": "/bɹɛst/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một trong hai cơ quan ở mặt trước của ngực người phụ nữ, có chứa các tuyến vú; cũng là các cơ quan tương tự ở nam giới.",
+    "meaning_en": "Either of the two organs on the front of a female human's chest, which contain the mammary glands; also the analogous organs in males.",
+    "example": "Tanya's breasts grew remarkably during pregnancy.",
+    "cefr": "B1"
+  },
+  {
+    "word": "breath",
+    "ipa": "/bɹɛθ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Hành động hoặc quá trình thở.",
+    "meaning_en": "The act or process of breathing.",
+    "example": "I could hear the breath of the runner behind me.",
+    "cefr": "B1"
+  },
+  {
+    "word": "breathe",
+    "ipa": "/bɹiːð/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để hút không khí vào (hít vào), và đẩy không khí ra khỏi (thở ra), phổi để trích xuất oxy và bài tiết khí thải.",
+    "meaning_en": "To draw air into (inhale), and expel air from (exhale), the lungs in order to extract oxygen and excrete waste gases.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "breathe in",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "Hít sâu vào.",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "breathe out",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "thở ra đi",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "breathing",
+    "ipa": "/ˈbɹiːðɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "Để hút không khí vào (hít vào), và đẩy không khí ra khỏi (thở ra), phổi để trích xuất oxy và bài tiết khí thải.",
+    "meaning_en": "To draw air into (inhale), and expel air from (exhale), the lungs in order to extract oxygen and excrete waste gases.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "breed",
+    "ipa": "/bɹiːd/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Tất cả các động vật hoặc thực vật cùng loài hoặc phân loài.",
+    "meaning_en": "All animals or plants of the same species or subspecies.",
+    "example": "a breed of animal",
+    "cefr": "B1"
+  },
+  {
+    "word": "brick",
+    "ipa": "/bɹɪk/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một khối hình chữ nhật cứng bằng bùn, đất sét, v.v., được sử dụng để xây dựng.",
+    "meaning_en": "A hardened rectangular block of mud, clay etc., used for building.",
+    "example": "This wall is made of bricks.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bridge",
+    "ipa": "/bɹɪd͡ʒ/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một công trình xây dựng hoặc đặc điểm tự nhiên kéo dài sự phân chia.",
+    "meaning_en": "A construction or natural feature that spans a divide.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "brief",
+    "ipa": "/bɹiːf/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một lệnh triệu tập một người để trả lời cho bất kỳ hành động nào.",
+    "meaning_en": "A writ summoning one to answer to any action.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "briefly",
+    "ipa": "/ˈbɹiːfli/",
+    "partOfSpeech": "adverb",
+    "meaning_vi": "(cách thức) Một cách ngắn gọn, tóm tắt.",
+    "meaning_en": "(manner) In a brief manner, summarily.",
+    "example": "He covered the subject briefly in his book.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bright",
+    "ipa": "/bɹaɪt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Bàn chải của một nghệ sĩ được sử dụng trong sơn dầu và sơn acrylic với một bàn chải dài và một đầu lông hơi thon, phẳng.",
+    "meaning_en": "An artist's brush used in oil and acrylic painting with a long ferrule and a flat, somewhat tapering bristle head.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "brightly",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tươi sáng",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "brilliant",
+    "ipa": "/ˈbɹɪljənt/",
+    "partOfSpeech": "noun",
+    "meaning_vi": "Một loại đá quý được cắt mịn, đặc biệt là kim cương, được cắt ở một dạng cụ thể với nhiều khía cạnh để tối đa hóa ánh sáng trở lại qua phần trên (được gọi là \"bảng\") của đá.",
+    "meaning_en": "A finely cut gemstone, especially a diamond, cut in a particular form with numerous facets so as to maximize light return through the top (called \"table\") of the stone.",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bring",
+    "ipa": "/ˈbɹɪŋ/",
+    "partOfSpeech": "verb",
+    "meaning_vi": "(ditransitive) Để di chuyển về phía ai đó/một nơi nào đó.",
+    "meaning_en": "(ditransitive) To transport toward somebody/somewhere.",
+    "example": "Waiter, please bring me a single malt whiskey.",
+    "cefr": "B1"
+  },
+  {
+    "word": "bring back",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "mang về",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bring down",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "giảm xuống",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bring forward",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "tiến hành",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  },
+  {
+    "word": "bring out",
+    "ipa": "",
+    "partOfSpeech": "",
+    "meaning_vi": "xuất bản",
+    "meaning_en": "",
+    "example": "",
+    "cefr": "B1"
+  }
+]

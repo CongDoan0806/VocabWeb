@@ -40,6 +40,60 @@ function formatInterval(ms) {
 }
 
 /* ============================================================
+   ICONS — Lucide (MIT), inline SVG. Offline, themeable via
+   currentColor, survives innerHTML re-renders (no re-init).
+   ============================================================ */
+const ICONS = {
+  'home': '<path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>',
+  'graduation-cap': '<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>',
+  'book-open': '<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>',
+  'bar-chart': '<path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/>',
+  'settings': '<path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/>',
+  'wifi-off': '<path d="M12 20h.01"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/><path d="M5 12.859a10 10 0 0 1 5.17-2.69"/><path d="M19 12.859a10 10 0 0 0-2.007-1.523"/><path d="M2 8.82a15 15 0 0 1 4.177-2.643"/><path d="M22 8.82a15 15 0 0 0-11.288-3.764"/><path d="m2 2 20 20"/>',
+  'mic-off': '<line x1="2" x2="22" y1="2" y2="22"/><path d="M18.89 13.23A7.12 7.12 0 0 0 19 12v-2"/><path d="M5 10v2a7 7 0 0 0 12 5"/><path d="M15 9.34V5a3 3 0 0 0-5.68-1.33"/><path d="M9 9v3a3 3 0 0 0 5.12 2.12"/><line x1="12" x2="12" y1="19" y2="22"/>',
+  'refresh-cw': '<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/>',
+  'flame': '<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>',
+  'star': '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>',
+  'trophy': '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
+  'box': '<path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/>',
+  'clock': '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+  'mic': '<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/>',
+  'volume': '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>',
+  'eye': '<path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>',
+  'play': '<polygon points="6 3 20 12 6 21 6 3"/>',
+  'repeat': '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>',
+  'check': '<path d="M20 6 9 17l-5-5"/>',
+  'x': '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+  'plus': '<path d="M5 12h14"/><path d="M12 5v14"/>',
+  'pencil': '<path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/>',
+  'trash': '<path d="M3 6h18"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" x2="10" y1="11" y2="17"/><line x1="14" x2="14" y1="11" y2="17"/>',
+  'download': '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>',
+  'upload': '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/>',
+  'folder': '<path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>',
+  'library': '<path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/>',
+  'list': '<line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/>',
+  'chevron-left': '<path d="m15 18-6-6 6-6"/>',
+  'chevron-right': '<path d="m9 18 6-6-6-6"/>',
+  'arrow-left': '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',
+  'rocket': '<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>',
+  'search': '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>'
+};
+
+function svgIcon(name, size = 20) {
+  const p = ICONS[name];
+  if (!p) return '';
+  return `<svg class="ic" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+}
+const I = (name, size) => svgIcon(name, size);
+
+function hydrateIcons(root = document) {
+  root.querySelectorAll('[data-icon]').forEach(el => {
+    const s = el.dataset.iconSize ? parseInt(el.dataset.iconSize, 10) : 20;
+    el.innerHTML = svgIcon(el.dataset.icon, s);
+  });
+}
+
+/* ============================================================
    DB LAYER — IndexedDB primary, LocalStorage fallback
    Stores: words, cards, decks, user
    ============================================================ */
@@ -124,10 +178,20 @@ const DB = (function () {
 /* ============================================================
    SEED DATA — 50 words across 3 decks
    ============================================================ */
+const DECK_COLORS = ['#0EA5E9', '#F59E0B', '#10B981', '#7C3AED', '#EF4444', '#EC4899', '#14B8A6', '#F97316'];
+const SEED_BASE_TS = new Date('2026-01-01T00:00:00').getTime();
 const SEED_DECKS = [
-  { id: 'deck1', name: 'Giao tiếp cơ bản', description: 'Chào hỏi và cụm từ thông dụng hằng ngày' },
-  { id: 'deck2', name: 'IELTS Academic', description: 'Từ vựng học thuật cho kỳ thi IELTS' },
-  { id: 'deck3', name: 'Công nghệ', description: 'Thuật ngữ công nghệ thông tin phổ biến' },
+  { id: 'deck1', name: 'Giao tiếp cơ bản', topic: 'Đời sống', description: 'Chào hỏi và cụm từ thông dụng hằng ngày', color: '#10B981', createdAt: SEED_BASE_TS, source: 'seed' },
+  { id: 'deck2', name: 'IELTS Academic', topic: 'Học thuật', description: 'Từ vựng học thuật cho kỳ thi IELTS', color: '#0EA5E9', createdAt: SEED_BASE_TS + 1000, source: 'seed' },
+  { id: 'deck3', name: 'Công nghệ', topic: 'Chuyên ngành', description: 'Thuật ngữ công nghệ thông tin phổ biến', color: '#7C3AED', createdAt: SEED_BASE_TS + 2000, source: 'seed' },
+];
+
+/* Built-in catalog — bộ từ bundle sẵn, import 1 click từ file data/*.json.
+   Thêm bộ mới: tạo file data/<name>.json rồi thêm một mục vào đây. */
+const BUILTIN_DECKS = [
+  { id: 'oxford-3000', name: 'Oxford 3000', topic: 'Tổng quát', description: '3.000 từ quan trọng nhất tiếng Anh (đang cập nhật)', level: 'A1–B2', file: 'data/oxford-3000-vi.json', color: '#7C3AED' },
+  { id: 'oxford-essential', name: 'Oxford Essential', topic: 'Tổng quát', description: 'Những từ tiếng Anh thông dụng nhất (A1–B2)', level: 'A1–B2', file: 'data/oxford-essential.json', color: '#0EA5E9' },
+  { id: 'toeic-business', name: 'TOEIC Business', topic: 'Công sở', description: 'Từ vựng thương mại, văn phòng cho kỳ thi TOEIC', level: 'B1–B2', file: 'data/toeic-business.json', color: '#F59E0B' },
 ];
 
 const SEED_WORDS = [
@@ -487,7 +551,8 @@ const State = {
   words: [], cards: [], decks: [], user: null,
   session: null,
   currentView: 'dashboard',
-  library: { search: '', deck: 'all', state: 'all', page: 1, perPage: 15 },
+  library: { view: 'decks', sort: 'created', search: '', deck: 'all', state: 'all', page: 1, perPage: 15, selected: new Set() },
+  studyRequest: null,
   wordIndex: {},   // wordId -> word
   cardByWord: {},  // wordId -> card
 };
@@ -540,15 +605,28 @@ function dueBreakdown() {
   return { review, learning, newRemaining: Math.min(newAllowedToday(), State.cards.filter(c => c.state === 'new').length) };
 }
 
-function buildQueue() {
+function inDeck(card, deckId) {
+  if (!deckId) return true;
+  const w = State.wordIndex[card.wordId];
+  return w && w.category === deckId;
+}
+
+function buildQueue(deckId) {
   const now = Date.now();
-  const due = State.cards.filter(c => c.state !== 'new' && c.due <= now);
+  const pool = State.cards.filter(c => inDeck(c, deckId));
+  const due = pool.filter(c => c.state !== 'new' && c.due <= now);
   due.sort((a, b) => a.due - b.due);
   const overdue = due.filter(c => c.state === 'review' || c.state === 'relearning');
   const learning = due.filter(c => c.state === 'learning');
-  const newCards = State.cards.filter(c => c.state === 'new').slice(0, newAllowedToday());
+  const newCards = pool.filter(c => c.state === 'new').slice(0, newAllowedToday());
   let queue = [...overdue, ...learning, ...newCards].slice(0, 100);
   return queue.map(c => c.id);
+}
+
+/* Cram queue — tất cả thẻ trong set, xáo trộn, không đụng lịch FSRS */
+function buildCramQueue(deckId) {
+  const pool = State.cards.filter(c => inDeck(c, deckId));
+  return shuffle(pool.map(c => c.id));
 }
 
 /* ============================================================
@@ -593,10 +671,12 @@ const Modal = {
   open(html) {
     $('#modal-content').innerHTML = html;
     $('#modal-overlay').classList.remove('hidden');
+    document.body.classList.add('modal-open');
   },
   close() {
     $('#modal-overlay').classList.add('hidden');
     $('#modal-content').innerHTML = '';
+    document.body.classList.remove('modal-open');
   }
 };
 
@@ -682,8 +762,8 @@ const Dashboard = {
           <div class="greeting-sub">Sẵn sàng học từ vựng hôm nay chưa?</div>
         </div>
         <div class="flex items-center gap-3">
-          <div class="xp-earned-badge" style="margin:0"><span>🔥</span> ${u.streak} ngày</div>
-          <div class="xp-earned-badge" style="margin:0"><span>⭐</span> ${u.xp.toLocaleString('vi-VN')} XP</div>
+          <div class="xp-earned-badge" style="margin:0">${I('flame', 18)} ${u.streak} ngày</div>
+          <div class="xp-earned-badge" style="margin:0">${I('star', 18)} ${u.xp.toLocaleString('vi-VN')} XP</div>
         </div>
       </div>
 
@@ -717,7 +797,7 @@ const Dashboard = {
               <div class="breakdown-item"><span class="dot dot-new"></span> Mới: ${bd.newRemaining}</div>
             </div>
             <button class="btn btn-primary btn-lg btn-full" id="dash-start-btn">
-              ${totalDue + bd.newRemaining > 0 ? '🚀 BẮT ĐẦU HỌC' : '✅ Đã học xong hôm nay — Ôn thêm'}
+              ${totalDue + bd.newRemaining > 0 ? I('rocket', 18) + ' BẮT ĐẦU HỌC' : I('check', 18) + ' Đã học xong hôm nay — Ôn thêm'}
             </button>
           </div>
         </div>
@@ -768,36 +848,152 @@ function vocabRow(label, count, pct, color) {
 const Study = {
   render() {
     if (!State.session) {
-      const queue = buildQueue();
-      if (queue.length === 0) { this.renderEmpty(); return; }
+      const req = State.studyRequest || { mode: 'srs', deckId: null };
+      State.studyRequest = null;
+      if (req.mode === 'cram') { this.startCram(req.deckId); return; }
+      const queue = buildQueue(req.deckId);
+      if (queue.length === 0) { this.renderEmpty(req.deckId); return; }
       State.session = {
-        queue, results: [], reviewed: 0, correct: 0, newLearned: 0, xpEarned: 0,
+        queue, deckId: req.deckId || null, cram: false,
+        results: [], reviewed: 0, correct: 0, newLearned: 0, xpEarned: 0,
         againCount: 0, startTime: Date.now(), hour: new Date().getHours(),
         mode: State.user.settings.mode || 'flashcard',
         total: queue.length, revealed: false, answered: false, answerCorrect: null,
         introducedThisSession: new Set()
       };
     }
-    this.renderCard();
+    if (State.session.cram) this.renderCramCard();
+    else this.renderCard();
   },
 
-  renderEmpty() {
+  startCram(deckId) {
+    const queue = buildCramQueue(deckId);
+    if (!queue.length) { this.renderEmpty(deckId); return; }
+    State.session = {
+      queue, deckId: deckId || null, cram: true, total: queue.length,
+      reviewed: 0, known: 0, startTime: Date.now(), hour: new Date().getHours(), revealed: false
+    };
+    this.renderCramCard();
+  },
+
+  deckName(deckId) {
+    if (!deckId) return 'Tất cả';
+    const d = State.decks.find(x => x.id === deckId);
+    return d ? d.name : 'Set';
+  },
+
+  renderEmpty(deckId) {
     const now = Date.now();
-    const future = State.cards.filter(c => c.state !== 'new' && c.due > now).sort((a, b) => a.due - b.due)[0];
+    const pool = State.cards.filter(c => inDeck(c, deckId));
+    const future = pool.filter(c => c.state !== 'new' && c.due > now).sort((a, b) => a.due - b.due)[0];
     let countdown = '';
-    if (future) {
-      const ms = future.due - now;
-      countdown = `<div class="next-review-countdown">⏰ Lần ôn tiếp theo sau: ${formatInterval(ms)}</div>`;
-    }
+    if (future) countdown = `<div class="next-review-countdown">⏰ Lần ôn tiếp theo sau: ${formatInterval(future.due - now)}</div>`;
+    const cramBtn = pool.length
+      ? `<button class="btn btn-accent" onclick="Study.launch('${deckId || ''}','cram')">${I('repeat', 18)} Luyện tập cả set (${pool.length})</button>` : '';
     $('#view-study').innerHTML = `
       <div class="empty-study">
         <div class="empty-emoji">🎉</div>
-        <div class="empty-title">Tuyệt vời! Bạn đã học hết rồi</div>
-        <div class="empty-sub">Không còn thẻ nào cần ôn ngay bây giờ.</div>
+        <div class="empty-title">Đã học hết ${deckId ? '"' + esc(this.deckName(deckId)) + '"' : ''} rồi!</div>
+        <div class="empty-sub">Không còn thẻ nào đến hạn ôn ngay bây giờ.</div>
         ${countdown}
         <div class="mt-4 flex gap-3" style="justify-content:center;flex-wrap:wrap">
-          <button class="btn btn-primary" onclick="location.hash='library'">📖 Thêm từ mới</button>
-          <button class="btn btn-ghost" onclick="location.hash='dashboard'">🏠 Về trang chủ</button>
+          ${cramBtn}
+          <button class="btn btn-primary" onclick="location.hash='library'">${I('book-open', 18)} Thư viện</button>
+          <button class="btn btn-ghost" onclick="location.hash='dashboard'">${I('home', 18)} Trang chủ</button>
+        </div>
+      </div>`;
+  },
+
+  /* Điều hướng vào phiên học từ nơi khác (deck card, empty state...) */
+  launch(deckId, mode) {
+    State.session = null;
+    State.studyRequest = { deckId: deckId || null, mode: mode || 'srs' };
+    if (State.currentView === 'study') Study.render();
+    else Router.go('study');
+  },
+
+  renderCramCard() {
+    const s = State.session;
+    const card = this.currentCard();
+    if (!card) { this.endCram(); return; }
+    const word = State.wordIndex[card.wordId];
+    if (!word) { s.queue.shift(); this.renderCramCard(); return; }
+    s.revealed = false;
+    const deck = State.decks.find(d => d.id === word.category);
+    const pct = s.total ? (s.reviewed / s.total * 100) : 0;
+
+    $('#view-study').innerHTML = `
+      <div class="study-container">
+        <div class="study-header">
+          <button class="btn btn-icon btn-ghost" onclick="Study.endCram(true)" title="Thoát">${I('x', 18)}</button>
+          <span class="study-progress-label">${I('repeat', 15)} Luyện tập ${s.reviewed}/${s.total}</span>
+          <div class="study-progress-track"><div class="study-progress-fill" style="width:${pct}%"></div></div>
+        </div>
+        <div class="flashcard-scene">
+          <div class="flashcard" id="flashcard">
+            <div class="card-face card-face-front">
+              <span class="card-deck-tag">${esc(deck ? deck.name : '')}</span>
+              <div class="card-prompt">${esc(word.meaning_vi)}</div>
+              <div class="card-hint">Nhớ lại từ tiếng Anh rồi bấm "Hiện đáp án"</div>
+            </div>
+            <div class="card-face card-face-back">
+              <div class="card-word">${esc(word.word)}</div>
+              <div class="card-ipa">${esc(word.ipa || '')}</div>
+              <div class="card-example">${esc(word.example || '')}</div>
+            </div>
+          </div>
+        </div>
+        <div id="study-footer">
+          <div class="study-actions">
+            <button class="btn btn-ghost btn-sm" id="cram-speak">${I('volume', 16)} Nghe</button>
+            <button class="btn btn-primary" id="cram-reveal">${I('eye', 18)} Hiện đáp án</button>
+          </div>
+        </div>
+      </div>`;
+
+    $('#cram-speak').addEventListener('click', () => Speech.speak(word.word));
+    $('#cram-reveal').addEventListener('click', () => {
+      s.revealed = true;
+      const fc = $('#flashcard'); if (fc) fc.classList.add('flipped');
+      Speech.speak(word.word);
+      $('#study-footer').innerHTML = `
+        <div class="rating-row" style="grid-template-columns:1fr 1fr">
+          <button class="btn-rating again" id="cram-unknown">Chưa thuộc<span class="interval-hint">ôn lại cuối set</span></button>
+          <button class="btn-rating easy" id="cram-known">Đã thuộc<span class="interval-hint">tiếp theo</span></button>
+        </div>`;
+      $('#cram-known').addEventListener('click', () => this.cramMark(true));
+      $('#cram-unknown').addEventListener('click', () => this.cramMark(false));
+    });
+  },
+
+  cramMark(known) {
+    const s = State.session;
+    const id = s.queue.shift();
+    s.reviewed++;
+    if (known) s.known++;
+    else s.queue.push(id); // ôn lại cuối set
+    if (s.queue.length === 0) this.endCram();
+    else this.renderCramCard();
+  },
+
+  endCram(early) {
+    const s = State.session;
+    const known = s ? s.known : 0, total = s ? s.total : 0;
+    const deckId = s ? s.deckId : null;
+    State.session = null;
+    $('#view-study').innerHTML = `
+      <div class="session-end">
+        <div class="session-end-emoji">🔁</div>
+        <div class="session-end-title">Xong buổi luyện tập!</div>
+        <div class="session-end-sub">Chế độ luyện tập không thay đổi lịch ôn FSRS của bạn.</div>
+        <div class="session-stats-grid">
+          <div class="session-stat"><div class="session-stat-value">${total}</div><div class="session-stat-label">Đã xem</div></div>
+          <div class="session-stat"><div class="session-stat-value">${known}</div><div class="session-stat-label">Đã thuộc</div></div>
+          <div class="session-stat"><div class="session-stat-value">${total ? Math.round(known / total * 100) : 0}%</div><div class="session-stat-label">Tỉ lệ</div></div>
+        </div>
+        <div class="mt-4 flex gap-3" style="justify-content:center;flex-wrap:wrap">
+          <button class="btn btn-primary" onclick="Study.launch('${deckId || ''}','srs')">${I('graduation-cap', 18)} Học chính thức (FSRS)</button>
+          <button class="btn btn-ghost" onclick="location.hash='library'">${I('book-open', 18)} Thư viện</button>
         </div>
       </div>`;
   },
@@ -836,10 +1032,10 @@ const Study = {
     $('#view-study').innerHTML = `
       <div class="study-container">
         <div class="study-header">
-          <button class="btn btn-icon btn-ghost" id="study-exit" title="Thoát">✕</button>
+          <button class="btn btn-icon btn-ghost" id="study-exit" title="Thoát">${I('x', 18)}</button>
           <span class="study-progress-label">${s.reviewed}/${s.total}</span>
           <div class="study-progress-track"><div class="study-progress-fill" style="width:${progressPct}%"></div></div>
-          <span class="study-progress-label">⭐ ${s.xpEarned}</span>
+          <span class="study-progress-label">${I('star', 15)} ${s.xpEarned}</span>
         </div>
         <div class="study-mode-tabs">${tabs}</div>
         <div id="study-body">${bodyHtml}</div>
@@ -858,8 +1054,8 @@ const Study = {
     const s = State.session;
     const audioFirst = s.mode === 'listening' || s.mode === 'spelling';
     const front = audioFirst
-      ? `<div class="card-prompt">🔊 Nghe và ${s.mode === 'spelling' ? 'gõ chính tả' : (Speech.hasRecognition ? 'phát âm' : 'gõ')} từ</div>
-         <button class="btn btn-primary mt-2" id="listen-play">▶ Phát lại</button>`
+      ? `<div class="card-prompt">${I('volume', 24)} Nghe và ${s.mode === 'spelling' ? 'gõ chính tả' : (Speech.hasRecognition ? 'phát âm' : 'gõ')} từ</div>
+         <button class="btn btn-primary mt-2" id="listen-play">${I('play', 18)} Phát lại</button>`
       : `<div class="card-prompt">${esc(word.meaning_vi)}</div>
          <div class="card-hint">Hãy ${Speech.hasRecognition ? 'phát âm hoặc gõ' : 'gõ'} từ tiếng Anh</div>`;
 
@@ -974,7 +1170,7 @@ const Study = {
     if (useVoice) {
       html += `
         <div class="voice-controls">
-          <button class="btn-mic" id="mic-btn" title="Nhấn để nói">🎤</button>
+          <button class="btn-mic" id="mic-btn" title="Nhấn để nói">${I('mic', 28)}</button>
           <div class="voice-status" id="voice-status">Nhấn micro rồi phát âm từ tiếng Anh</div>
         </div>
         <div class="text-center text-muted text-xs">— hoặc gõ từ —</div>`;
@@ -985,8 +1181,8 @@ const Study = {
         <button class="btn btn-primary" id="answer-submit">Kiểm tra</button>
       </div>
       <div class="study-actions">
-        <button class="btn btn-ghost btn-sm" id="listen-sample">🔊 Nghe mẫu</button>
-        <button class="btn btn-ghost btn-sm" id="reveal-btn">👁 Hiện đáp án</button>
+        <button class="btn btn-ghost btn-sm" id="listen-sample">${I('volume', 16)} Nghe mẫu</button>
+        <button class="btn btn-ghost btn-sm" id="reveal-btn">${I('eye', 16)} Hiện đáp án</button>
       </div>
     </div>`;
     footer.innerHTML = html;
@@ -1038,8 +1234,8 @@ const Study = {
     const rr = $('#reveal-result');
     if (rr && correct !== null) {
       rr.innerHTML = correct
-        ? `<div class="card-result correct">✓ Chính xác!</div>`
-        : `<div class="card-result wrong">✗ ${spoken ? 'Bạn nói: "' + esc(spoken) + '"' : 'Chưa đúng'}</div>`;
+        ? `<div class="card-result correct">${I('check', 18)} Chính xác!</div>`
+        : `<div class="card-result wrong">${I('x', 18)} ${spoken ? 'Bạn nói: "' + esc(spoken) + '"' : 'Chưa đúng'}</div>`;
     }
     Speech.speak(word.word);
     this.showRating(card, word, s.answerCorrect);
@@ -1059,7 +1255,7 @@ const Study = {
         <button class="btn-rating easy"  data-grade="4">Easy<span class="interval-hint">${preview(4)}</span></button>
       </div>
       <div class="study-actions mt-2">
-        <button class="btn btn-ghost btn-sm" id="rating-listen">🔊 Nghe lại</button>
+        <button class="btn btn-ghost btn-sm" id="rating-listen">${I('volume', 16)} Nghe lại</button>
       </div>`;
     $('#rating-listen').addEventListener('click', () => Speech.speak(word.word));
     $$('.btn-rating').forEach(b => b.addEventListener('click', () => this.rate(parseInt(b.dataset.grade, 10))));
@@ -1261,35 +1457,224 @@ function showBadgeEarned(badges) {
 const Library = {
   render() {
     const lib = State.library;
-    const deckOpts = ['<option value="all">Tất cả bộ thẻ</option>']
-      .concat(State.decks.map(d => `<option value="${d.id}" ${lib.deck === d.id ? 'selected' : ''}>${esc(d.name)}</option>`)).join('');
-    const stateOpts = [['all', 'Tất cả trạng thái'], ['new', 'Mới'], ['learning', 'Đang học'], ['review', 'Ôn tập'], ['mastered', 'Thành thạo']]
-      .map(([v, l]) => `<option value="${v}" ${lib.state === v ? 'selected' : ''}>${l}</option>`).join('');
-
     $('#view-library').innerHTML = `
       <div class="dashboard-header">
         <div>
           <div class="greeting">Thư viện từ vựng</div>
-          <div class="greeting-sub">Tổng cộng ${State.words.length} từ trong ${State.decks.length} bộ thẻ</div>
+          <div class="greeting-sub">${State.words.length} từ · ${State.decks.length} set</div>
+        </div>
+        <div class="lib-view-toggle">
+          <button class="toggle-btn ${lib.view === 'decks' ? 'active' : ''}" data-view="decks">${I('library', 16)} Theo set</button>
+          <button class="toggle-btn ${lib.view === 'words' ? 'active' : ''}" data-view="words">${I('list', 16)} Tất cả từ</button>
         </div>
       </div>
+      <div id="lib-body"></div>`;
+    $$('.lib-view-toggle .toggle-btn').forEach(b => b.addEventListener('click', () => {
+      lib.view = b.dataset.view; if (lib.view === 'decks') lib.deck = 'all'; this.render();
+    }));
+    if (lib.view === 'decks') this.renderDecks();
+    else this.renderWords();
+  },
+
+  /* ---------- DECK / SET VIEW ---------- */
+  renderDecks() {
+    const lib = State.library;
+    let decks = State.decks.slice();
+    if (lib.sort === 'name') decks.sort((a, b) => a.name.localeCompare(b.name));
+    else if (lib.sort === 'topic') decks.sort((a, b) => (a.topic || '').localeCompare(b.topic || '') || a.name.localeCompare(b.name));
+    else decks.sort((a, b) => b.createdAt - a.createdAt); // newest first
+
+    const cardHtml = (d) => {
+      const st = deckStats(d.id);
+      const pct = st.total ? Math.round(st.mastered / st.total * 100) : 0;
+      return `<div class="deck-card" style="--deck-color:${d.color || '#0EA5E9'}">
+        <div class="deck-card-stripe"></div>
+        <div class="deck-card-body">
+          <div class="deck-card-head">
+            <div>
+              <div class="deck-name">${esc(d.name)}</div>
+              ${d.topic ? `<span class="deck-topic-chip">${esc(d.topic)}</span>` : ''}
+            </div>
+            <div class="deck-mini-actions">
+              <button class="btn btn-icon btn-ghost btn-sm" data-deck-act="edit" data-id="${d.id}" title="Sửa set">${I('pencil', 16)}</button>
+              <button class="btn btn-icon btn-ghost btn-sm" data-deck-act="del" data-id="${d.id}" title="Xóa set">${I('trash', 16)}</button>
+            </div>
+          </div>
+          ${d.description ? `<div class="deck-desc">${esc(d.description)}</div>` : ''}
+          <div class="deck-meta">
+            <span>${I('box', 14)} ${st.total} từ</span>
+            <span>${I('trophy', 14)} ${st.mastered}</span>
+            ${st.due ? `<span style="color:var(--primary)">${I('clock', 14)} ${st.due} cần ôn</span>` : ''}
+          </div>
+          <div class="progress-track" style="height:6px;margin:4px 0 12px"><div class="progress-fill" style="width:${pct}%;background:${d.color || 'var(--primary)'}"></div></div>
+          <div class="deck-actions">
+            <button class="btn btn-primary btn-sm" data-deck-act="study" data-id="${d.id}">${I('graduation-cap', 16)} Học ngay${st.due ? ` (${st.due})` : ''}</button>
+            <button class="btn btn-accent btn-sm" data-deck-act="cram" data-id="${d.id}">${I('repeat', 16)} Luyện tập</button>
+            <button class="btn btn-ghost btn-sm" data-deck-act="view" data-id="${d.id}">${I('eye', 16)} Xem</button>
+          </div>
+        </div>
+      </div>`;
+    };
+
+    let grid = '';
+    if (!decks.length) {
+      grid = `<div class="empty-study"><div class="empty-emoji">📭</div><div class="empty-title">Chưa có set nào</div><div class="empty-sub">Tạo set mới hoặc thêm từ kho có sẵn.</div></div>`;
+    } else if (lib.sort === 'topic') {
+      const groups = {};
+      decks.forEach(d => { const t = d.topic || 'Khác'; (groups[t] = groups[t] || []).push(d); });
+      grid = Object.keys(groups).map(t =>
+        `<div class="deck-group-title">${esc(t)}</div><div class="deck-grid">${groups[t].map(cardHtml).join('')}</div>`).join('');
+    } else {
+      grid = `<div class="deck-grid">${decks.map(cardHtml).join('')}</div>`;
+    }
+
+    $('#lib-body').innerHTML = `
       <div class="library-toolbar">
-        <input type="text" class="library-search" id="lib-search" placeholder="Tìm từ tiếng Anh hoặc nghĩa tiếng Việt..." value="${esc(lib.search)}">
+        <button class="btn btn-primary btn-sm" id="deck-create">${I('plus', 16)} Tạo set mới</button>
+        <button class="btn btn-accent btn-sm" id="deck-catalog">${I('library', 16)} Kho từ vựng</button>
+        <button class="btn btn-ghost btn-sm" id="lib-export">${I('download', 16)} Xuất CSV</button>
+        <select class="filter-select" id="deck-sort" style="margin-left:auto">
+          <option value="created" ${lib.sort === 'created' ? 'selected' : ''}>Mới tạo nhất</option>
+          <option value="name" ${lib.sort === 'name' ? 'selected' : ''}>Tên A–Z</option>
+          <option value="topic" ${lib.sort === 'topic' ? 'selected' : ''}>Nhóm theo chủ đề</option>
+        </select>
+      </div>
+      ${grid}`;
+
+    $('#deck-create').addEventListener('click', () => this.editDeck(null));
+    $('#deck-catalog').addEventListener('click', () => this.catalogDialog());
+    $('#lib-export').addEventListener('click', () => this.exportCSV());
+    $('#deck-sort').addEventListener('change', e => { lib.sort = e.target.value; this.renderDecks(); });
+    $$('[data-deck-act]').forEach(b => b.addEventListener('click', () => {
+      const id = b.dataset.id, act = b.dataset.deckAct;
+      if (act === 'study') Study.launch(id, 'srs');
+      else if (act === 'cram') Study.launch(id, 'cram');
+      else if (act === 'view') { lib.view = 'words'; lib.deck = id; lib.page = 1; this.render(); }
+      else if (act === 'edit') this.editDeck(State.decks.find(d => d.id === id));
+      else if (act === 'del') this.deleteDeck(State.decks.find(d => d.id === id));
+    }));
+  },
+
+  editDeck(deck) {
+    const isNew = !deck;
+    Modal.open(`
+      <div class="modal-title">${isNew ? 'Tạo set mới' : 'Chỉnh sửa set'}</div>
+      <div class="modal-sub">Thông tin giúp bạn tổ chức và tìm set dễ hơn.</div>
+      <div class="form-group"><label class="form-label">Tên set *</label><input class="form-input" id="d-name" value="${esc(deck ? deck.name : '')}" placeholder="VD: Phrasal verbs"></div>
+      <div class="form-group"><label class="form-label">Chủ đề (topic)</label><input class="form-input" id="d-topic" value="${esc(deck ? deck.topic : '')}" placeholder="VD: IELTS, Công sở, Du lịch..."></div>
+      <div class="form-group"><label class="form-label">Mô tả</label><textarea class="form-input" id="d-desc">${esc(deck ? deck.description : '')}</textarea></div>
+      <div class="form-group"><label class="form-label">Màu</label><div class="color-row" id="d-colors">${DECK_COLORS.map(c => `<button class="color-dot ${(deck ? deck.color : DECK_COLORS[0]) === c ? 'sel' : ''}" data-color="${c}" style="background:${c}"></button>`).join('')}</div></div>
+      <div class="form-actions">
+        <button class="btn btn-ghost" onclick="Modal.close()">Hủy</button>
+        <button class="btn btn-primary" id="d-save">${isNew ? 'Tạo' : 'Lưu'}</button>
+      </div>`);
+    let color = deck ? deck.color : DECK_COLORS[0];
+    $$('#d-colors .color-dot').forEach(b => b.addEventListener('click', () => {
+      color = b.dataset.color; $$('#d-colors .color-dot').forEach(x => x.classList.toggle('sel', x === b));
+    }));
+    $('#d-save').addEventListener('click', async () => {
+      const name = $('#d-name').value.trim();
+      if (!name) { toast('Nhập tên set', 'error'); return; }
+      if (isNew) {
+        await createDeck({ name, topic: $('#d-topic').value.trim(), description: $('#d-desc').value.trim(), color });
+      } else {
+        deck.name = name; deck.topic = $('#d-topic').value.trim();
+        deck.description = $('#d-desc').value.trim(); deck.color = color;
+        await DB.put('decks', deck);
+      }
+      Modal.close(); this.render(); App.refreshChrome();
+      toast(isNew ? 'Đã tạo set' : 'Đã lưu', 'success');
+    });
+    setTimeout(() => $('#d-name').focus(), 100);
+  },
+
+  deleteDeck(deck) {
+    const st = deckStats(deck.id);
+    Modal.open(`
+      <div class="text-center">
+        <div style="font-size:2.5rem;margin-bottom:12px">🗑</div>
+        <div class="modal-title">Xóa set "${esc(deck.name)}"?</div>
+        <div class="modal-sub">${st.total} từ trong set sẽ bị xóa vĩnh viễn cùng tiến trình học.</div>
+        <div class="form-actions" style="justify-content:center">
+          <button class="btn btn-ghost" onclick="Modal.close()">Hủy</button>
+          <button class="btn btn-danger" id="deck-del-confirm">Xóa set</button>
+        </div>
+      </div>`);
+    $('#deck-del-confirm').addEventListener('click', async () => {
+      const wordIds = deckWords(deck.id).map(w => w.id);
+      const cardIds = State.cards.filter(c => wordIds.includes(c.wordId)).map(c => c.id);
+      State.words = State.words.filter(w => w.category !== deck.id);
+      State.cards = State.cards.filter(c => !wordIds.includes(c.wordId));
+      State.decks = State.decks.filter(d => d.id !== deck.id);
+      for (const id of wordIds) await DB.del('words', id);
+      for (const id of cardIds) await DB.del('cards', id);
+      await DB.del('decks', deck.id);
+      reindex(); Modal.close(); this.render(); App.refreshChrome();
+      toast('Đã xóa set', 'success');
+    });
+  },
+
+  catalogDialog() {
+    const rows = BUILTIN_DECKS.map(cfg => {
+      const added = State.decks.some(d => d.builtinId === cfg.id);
+      return `<div class="catalog-item">
+        <div class="catalog-color" style="background:${cfg.color}"></div>
+        <div class="catalog-info">
+          <div class="catalog-name">${esc(cfg.name)} <span class="deck-topic-chip">${esc(cfg.topic)}</span></div>
+          <div class="catalog-desc">${esc(cfg.description)} · ${esc(cfg.level || '')}</div>
+        </div>
+        ${added
+          ? `<span class="state-pill state-mastered">Đã thêm</span>`
+          : `<button class="btn btn-primary btn-sm" data-catalog="${cfg.id}">Thêm</button>`}
+      </div>`;
+    }).join('');
+    Modal.open(`
+      <div class="modal-title">${I('library', 22)} Kho từ vựng</div>
+      <div class="modal-sub">Chọn bộ từ có sẵn để thêm vào thư viện (1 lần bấm).</div>
+      <div class="catalog-list">${rows}</div>
+      <div class="divider"></div>
+      <div class="text-sm text-muted">Hoặc tự nhập từ file CSV của bạn:</div>
+      <div class="form-actions">
+        <button class="btn btn-ghost" id="catalog-csv">${I('upload', 16)} Nhập CSV</button>
+        <button class="btn btn-primary" onclick="Modal.close()">Xong</button>
+      </div>`);
+    $$('[data-catalog]').forEach(b => b.addEventListener('click', async () => {
+      b.disabled = true; b.textContent = 'Đang thêm...';
+      const cfg = BUILTIN_DECKS.find(c => c.id === b.dataset.catalog);
+      const deck = await importBuiltinDeck(cfg);
+      if (deck) { Modal.close(); this.render(); App.refreshChrome(); }
+      else { b.disabled = false; b.textContent = 'Thêm'; }
+    }));
+    $('#catalog-csv').addEventListener('click', () => this.importDialog());
+  },
+
+  /* ---------- WORDS TABLE VIEW ---------- */
+  renderWords() {
+    const lib = State.library;
+    const deckObj = lib.deck !== 'all' ? State.decks.find(d => d.id === lib.deck) : null;
+    const deckOpts = ['<option value="all">Tất cả set</option>']
+      .concat(State.decks.map(d => `<option value="${d.id}" ${lib.deck === d.id ? 'selected' : ''}>${esc(d.name)}</option>`)).join('');
+    const stateOpts = [['all', 'Tất cả trạng thái'], ['new', 'Mới'], ['learning', 'Đang học'], ['review', 'Ôn tập'], ['mastered', 'Thành thạo']]
+      .map(([v, l]) => `<option value="${v}" ${lib.state === v ? 'selected' : ''}>${l}</option>`).join('');
+
+    $('#lib-body').innerHTML = `
+      ${deckObj ? `<div class="deck-view-header"><button class="btn btn-ghost btn-sm" id="back-decks">${I('arrow-left', 16)} Set</button><span class="font-bold">${esc(deckObj.name)}</span></div>` : ''}
+      <div class="library-toolbar">
+        <input type="text" class="library-search" id="lib-search" placeholder="Tìm từ hoặc nghĩa..." value="${esc(lib.search)}">
         <select class="filter-select" id="lib-deck">${deckOpts}</select>
         <select class="filter-select" id="lib-state">${stateOpts}</select>
-        <button class="btn btn-primary btn-sm" id="lib-add">➕ Thêm từ</button>
-        <button class="btn btn-ghost btn-sm" id="lib-import">📥 Nhập CSV</button>
-        <button class="btn btn-ghost btn-sm" id="lib-export">📤 Xuất CSV</button>
+        <button class="btn btn-primary btn-sm" id="lib-add">${I('plus', 16)} Thêm từ</button>
+        <button class="btn btn-ghost btn-sm" id="lib-import">${I('upload', 16)} CSV</button>
       </div>
+      <div id="bulk-bar"></div>
       <div id="lib-table-wrap"></div>`;
 
+    if ($('#back-decks')) $('#back-decks').addEventListener('click', () => { lib.view = 'decks'; this.render(); });
     $('#lib-search').addEventListener('input', e => { lib.search = e.target.value; lib.page = 1; this.renderTable(); });
-    $('#lib-deck').addEventListener('change', e => { lib.deck = e.target.value; lib.page = 1; this.renderTable(); });
+    $('#lib-deck').addEventListener('change', e => { lib.deck = e.target.value; lib.page = 1; lib.selected.clear(); this.renderTable(); });
     $('#lib-state').addEventListener('change', e => { lib.state = e.target.value; lib.page = 1; this.renderTable(); });
     $('#lib-add').addEventListener('click', () => this.editWord(null));
     $('#lib-import').addEventListener('click', () => this.importDialog());
-    $('#lib-export').addEventListener('click', () => this.exportCSV());
-
     this.renderTable();
   },
 
@@ -1301,14 +1686,28 @@ const Library = {
       const card = State.cardByWord[w.id];
       if (lib.state !== 'all') {
         const dst = card ? displayState(card) : 'new';
-        if (lib.state === 'review' && !(dst === 'review')) return false;
-        else if (lib.state !== 'review' && dst !== lib.state) return false;
+        if (dst !== lib.state) return false;
       }
-      if (q) {
-        return normalize(w.word).includes(q) || normalize(w.meaning_vi).includes(q);
-      }
+      if (q) return normalize(w.word).includes(q) || normalize(w.meaning_vi).includes(q);
       return true;
     });
+  },
+
+  renderBulkBar() {
+    const lib = State.library;
+    const n = lib.selected.size;
+    const bar = $('#bulk-bar');
+    if (!bar) return;
+    if (n === 0) { bar.innerHTML = ''; return; }
+    bar.innerHTML = `<div class="bulk-bar">
+      <span class="font-bold">Đã chọn ${n} từ</span>
+      <button class="btn btn-secondary btn-sm" id="bulk-move">${I('folder', 16)} Chuyển vào set…</button>
+      <button class="btn btn-danger btn-sm" id="bulk-del">${I('trash', 16)} Xóa</button>
+      <button class="btn btn-ghost btn-sm" id="bulk-clear">Bỏ chọn</button>
+    </div>`;
+    $('#bulk-move').addEventListener('click', () => this.bulkAssign());
+    $('#bulk-del').addEventListener('click', () => this.bulkDelete());
+    $('#bulk-clear').addEventListener('click', () => { lib.selected.clear(); this.renderTable(); });
   },
 
   renderTable() {
@@ -1317,17 +1716,21 @@ const Library = {
     const totalPages = Math.max(1, Math.ceil(rows.length / lib.perPage));
     lib.page = clamp(lib.page, 1, totalPages);
     const pageRows = rows.slice((lib.page - 1) * lib.perPage, lib.page * lib.perPage);
+    this.renderBulkBar();
 
     if (rows.length === 0) {
-      $('#lib-table-wrap').innerHTML = `<div class="empty-study"><div class="empty-emoji">🔍</div><div class="empty-title">Không tìm thấy từ nào</div><div class="empty-sub">Thử thay đổi bộ lọc hoặc thêm từ mới.</div></div>`;
+      $('#lib-table-wrap').innerHTML = `<div class="empty-study"><div class="empty-emoji">🔍</div><div class="empty-title">Không có từ nào</div><div class="empty-sub">Thử đổi bộ lọc hoặc thêm từ mới.</div></div>`;
       return;
     }
 
+    const allChecked = pageRows.every(w => lib.selected.has(w.id));
     const body = pageRows.map(w => {
       const card = State.cardByWord[w.id];
       const dst = card ? displayState(card) : 'new';
       const deck = State.decks.find(d => d.id === w.category);
+      const checked = lib.selected.has(w.id) ? 'checked' : '';
       return `<tr>
+        <td><input type="checkbox" class="row-check" data-id="${w.id}" ${checked}></td>
         <td class="word-cell">${esc(w.word)}</td>
         <td>${esc(w.meaning_vi)}</td>
         <td class="ipa-cell">${esc(w.ipa || '')}</td>
@@ -1335,9 +1738,9 @@ const Library = {
         <td><span class="state-pill state-${dst}">${STATE_LABEL[dst]}</span></td>
         <td>
           <div class="word-actions">
-            <button class="btn btn-icon btn-ghost btn-sm" data-act="speak" data-id="${w.id}" title="Nghe">🔊</button>
-            <button class="btn btn-icon btn-ghost btn-sm" data-act="edit" data-id="${w.id}" title="Sửa">✏️</button>
-            <button class="btn btn-icon btn-ghost btn-sm" data-act="del" data-id="${w.id}" title="Xóa">🗑</button>
+            <button class="btn btn-icon btn-ghost btn-sm" data-act="speak" data-id="${w.id}" title="Nghe">${I('volume', 16)}</button>
+            <button class="btn btn-icon btn-ghost btn-sm" data-act="edit" data-id="${w.id}" title="Sửa">${I('pencil', 16)}</button>
+            <button class="btn btn-icon btn-ghost btn-sm" data-act="del" data-id="${w.id}" title="Xóa">${I('trash', 16)}</button>
           </div>
         </td>
       </tr>`;
@@ -1346,18 +1749,26 @@ const Library = {
     let pag = '';
     if (totalPages > 1) {
       pag = `<div class="pagination">
-        <button class="page-btn" data-page="${lib.page - 1}" ${lib.page === 1 ? 'disabled' : ''}>‹</button>
+        <button class="page-btn" data-page="${lib.page - 1}" ${lib.page === 1 ? 'disabled' : ''}>${I('chevron-left', 16)}</button>
         <span class="page-info">Trang ${lib.page}/${totalPages} · ${rows.length} từ</span>
-        <button class="page-btn" data-page="${lib.page + 1}" ${lib.page === totalPages ? 'disabled' : ''}>›</button>
+        <button class="page-btn" data-page="${lib.page + 1}" ${lib.page === totalPages ? 'disabled' : ''}>${I('chevron-right', 16)}</button>
       </div>`;
     }
 
     $('#lib-table-wrap').innerHTML = `
       <table class="word-table">
-        <thead><tr><th>Từ</th><th>Nghĩa</th><th>Phiên âm</th><th>Bộ thẻ</th><th>Trạng thái</th><th></th></tr></thead>
+        <thead><tr><th><input type="checkbox" id="check-all" ${allChecked ? 'checked' : ''}></th><th>Từ</th><th>Nghĩa</th><th>Phiên âm</th><th>Set</th><th>Trạng thái</th><th></th></tr></thead>
         <tbody>${body}</tbody>
       </table>${pag}`;
 
+    $('#check-all').addEventListener('change', e => {
+      pageRows.forEach(w => e.target.checked ? lib.selected.add(w.id) : lib.selected.delete(w.id));
+      this.renderTable();
+    });
+    $$('.row-check').forEach(cb => cb.addEventListener('change', () => {
+      cb.checked ? lib.selected.add(cb.dataset.id) : lib.selected.delete(cb.dataset.id);
+      this.renderBulkBar();
+    }));
     $$('#lib-table-wrap [data-act]').forEach(b => b.addEventListener('click', () => {
       const id = b.dataset.id, act = b.dataset.act;
       const word = State.wordIndex[id];
@@ -1368,6 +1779,59 @@ const Library = {
     $$('#lib-table-wrap .page-btn').forEach(b => b.addEventListener('click', () => {
       if (b.disabled) return; lib.page = parseInt(b.dataset.page, 10); this.renderTable();
     }));
+  },
+
+  bulkAssign() {
+    const lib = State.library;
+    const opts = State.decks.map(d => `<option value="${d.id}">${esc(d.name)}</option>`).join('');
+    Modal.open(`
+      <div class="modal-title">Chuyển ${lib.selected.size} từ vào set</div>
+      <div class="form-group"><label class="form-label">Chọn set đích</label>
+        <select class="form-input" id="assign-deck"><option value="__new__">➕ Tạo set mới…</option>${opts}</select></div>
+      <div class="form-group hidden" id="assign-new-wrap"><label class="form-label">Tên set mới</label><input class="form-input" id="assign-new-name" placeholder="Tên set"></div>
+      <div class="form-actions">
+        <button class="btn btn-ghost" onclick="Modal.close()">Hủy</button>
+        <button class="btn btn-primary" id="assign-save">Chuyển</button>
+      </div>`);
+    const upd = () => $('#assign-new-wrap').classList.toggle('hidden', $('#assign-deck').value !== '__new__');
+    $('#assign-deck').addEventListener('change', upd); upd();
+    $('#assign-save').addEventListener('click', async () => {
+      let deckId = $('#assign-deck').value;
+      if (deckId === '__new__') {
+        const nm = $('#assign-new-name').value.trim();
+        if (!nm) { toast('Nhập tên set', 'error'); return; }
+        const d = await createDeck({ name: nm }); deckId = d.id;
+      }
+      const changed = [];
+      lib.selected.forEach(id => { const w = State.wordIndex[id]; if (w) { w.category = deckId; changed.push(w); } });
+      await DB.bulkPut('words', changed);
+      lib.selected.clear(); reindex(); Modal.close(); this.render(); App.refreshChrome();
+      toast(`Đã chuyển ${changed.length} từ`, 'success');
+    });
+  },
+
+  bulkDelete() {
+    const lib = State.library;
+    Modal.open(`
+      <div class="text-center">
+        <div style="font-size:2.5rem;margin-bottom:12px">🗑</div>
+        <div class="modal-title">Xóa ${lib.selected.size} từ đã chọn?</div>
+        <div class="modal-sub">Không thể hoàn tác.</div>
+        <div class="form-actions" style="justify-content:center">
+          <button class="btn btn-ghost" onclick="Modal.close()">Hủy</button>
+          <button class="btn btn-danger" id="bulk-del-confirm">Xóa</button>
+        </div>
+      </div>`);
+    $('#bulk-del-confirm').addEventListener('click', async () => {
+      const ids = Array.from(lib.selected);
+      const cardIds = State.cards.filter(c => ids.includes(c.wordId)).map(c => c.id);
+      State.words = State.words.filter(w => !ids.includes(w.id));
+      State.cards = State.cards.filter(c => !ids.includes(c.wordId));
+      for (const id of ids) await DB.del('words', id);
+      for (const id of cardIds) await DB.del('cards', id);
+      lib.selected.clear(); reindex(); Modal.close(); this.render(); App.refreshChrome();
+      toast('Đã xóa các từ', 'success');
+    });
   },
 
   editWord(word) {
@@ -1400,7 +1864,7 @@ const Library = {
         word.example = $('#w-example').value.trim(); word.category = $('#w-deck').value;
         await DB.put('words', word);
       }
-      reindex(); Modal.close(); this.renderTable(); App.refreshChrome();
+      reindex(); Modal.close(); this.render(); App.refreshChrome();
       toast(isNew ? 'Đã thêm từ mới' : 'Đã lưu thay đổi', 'success');
     });
     setTimeout(() => $('#w-word').focus(), 100);
@@ -1423,22 +1887,30 @@ const Library = {
       State.cards = State.cards.filter(c => c.wordId !== word.id);
       await DB.del('words', word.id);
       if (card) await DB.del('cards', card.id);
-      reindex(); Modal.close(); this.renderTable(); App.refreshChrome();
+      reindex(); Modal.close(); this.render(); App.refreshChrome();
       toast('Đã xóa từ', 'success');
     });
   },
 
   importDialog() {
+    const lib = State.library;
+    const preselect = lib.deck !== 'all' ? lib.deck : '__new__';
+    const deckOpts = State.decks.map(d => `<option value="${d.id}" ${d.id === preselect ? 'selected' : ''}>${esc(d.name)}</option>`).join('');
     Modal.open(`
       <div class="modal-title">Nhập từ vựng từ CSV</div>
-      <div class="modal-sub">Cột: word, meaning_vi, example, category, image_url (tùy chọn)</div>
+      <div class="modal-sub">Cột: word, meaning_vi, example, image_url (tùy chọn)</div>
+      <div class="form-group"><label class="form-label">Nhập vào set</label>
+        <select class="form-input" id="csv-target"><option value="__new__" ${preselect === '__new__' ? 'selected' : ''}>➕ Tạo set mới…</option>${deckOpts}</select></div>
+      <div class="form-group hidden" id="csv-new-wrap"><label class="form-label">Tên set mới</label><input class="form-input" id="csv-new-name" placeholder="VD: Từ vựng của tôi"></div>
       <div class="drop-zone" id="drop-zone">
         <div style="font-size:2rem;margin-bottom:8px">📄</div>
         <div>Kéo thả file CSV vào đây hoặc bấm để chọn</div>
         <input type="file" id="csv-file" accept=".csv,text/csv" style="display:none">
       </div>
-      <div class="mt-4"><button class="btn btn-ghost btn-sm" id="csv-template">⬇ Tải mẫu CSV</button></div>
+      <div class="mt-4"><button class="btn btn-ghost btn-sm" id="csv-template">${I('download', 16)} Tải mẫu CSV</button></div>
       <div id="csv-preview-area"></div>`);
+    const upd = () => $('#csv-new-wrap').classList.toggle('hidden', $('#csv-target').value !== '__new__');
+    $('#csv-target').addEventListener('change', upd); upd();
     const dz = $('#drop-zone'), fi = $('#csv-file');
     dz.addEventListener('click', () => fi.click());
     dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag-over'); });
@@ -1449,7 +1921,7 @@ const Library = {
     });
     fi.addEventListener('change', () => { if (fi.files[0]) this.parseCSVFile(fi.files[0]); });
     $('#csv-template').addEventListener('click', () => downloadFile(
-      'word,meaning_vi,example,category,image_url\nhello,xin chào,Hello there!,deck1,\napple,quả táo,I eat an apple.,deck1,',
+      'word,meaning_vi,ipa,example,image_url\nhello,xin chào,/həˈloʊ/,Hello there!,\napple,quả táo,/ˈæpl/,I eat an apple.,',
       'vocabmaster-template.csv', 'text/csv'));
   },
 
@@ -1460,7 +1932,7 @@ const Library = {
       if (rows.length < 2) { toast('File CSV trống hoặc không hợp lệ', 'error'); return; }
       const header = rows[0].map(h => normalize(h));
       const wi = header.indexOf('word'), mi = header.indexOf('meaning_vi'),
-            ei = header.indexOf('example'), ci = header.indexOf('category'), ii = header.indexOf('image_url');
+            ipi = header.indexOf('ipa'), ei = header.indexOf('example'), ii = header.indexOf('image_url');
       if (wi < 0 || mi < 0) { toast('CSV cần có cột "word" và "meaning_vi"', 'error'); return; }
       const existing = new Set(State.words.map(w => normalize(w.word)));
       const parsed = [], dups = [];
@@ -1470,8 +1942,8 @@ const Library = {
         if (!word) continue;
         const item = {
           word, meaning_vi: (r[mi] || '').trim(),
+          ipa: ipi >= 0 ? (r[ipi] || '').trim() : '',
           example: ei >= 0 ? (r[ei] || '').trim() : '',
-          category: ci >= 0 && State.decks.some(d => d.id === (r[ci] || '').trim()) ? (r[ci] || '').trim() : State.decks[0].id,
           image_url: ii >= 0 ? (r[ii] || '').trim() : ''
         };
         if (existing.has(normalize(word))) { dups.push(item); } else { parsed.push(item); existing.add(normalize(word)); }
@@ -1483,25 +1955,30 @@ const Library = {
 
   showCSVPreview(parsed, dups) {
     const preview = parsed.slice(0, 8).map(p =>
-      `<tr><td>${esc(p.word)}</td><td>${esc(p.meaning_vi)}</td><td>${esc(p.category)}</td></tr>`).join('');
+      `<tr><td>${esc(p.word)}</td><td>${esc(p.meaning_vi)}</td><td>${esc(p.ipa)}</td></tr>`).join('');
     $('#csv-preview-area').innerHTML = `
       <div class="divider"></div>
       <div class="mb-4"><strong>${parsed.length}</strong> từ mới sẽ được nhập${dups.length ? ` · <span style="color:var(--accent)">${dups.length} từ trùng sẽ bỏ qua</span>` : ''}</div>
-      ${parsed.length ? `<div class="csv-preview"><table class="csv-table"><thead><tr><th>Từ</th><th>Nghĩa</th><th>Bộ thẻ</th></tr></thead><tbody>${preview}</tbody></table></div>${parsed.length > 8 ? `<div class="text-xs text-muted">...và ${parsed.length - 8} từ khác</div>` : ''}` : ''}
+      ${parsed.length ? `<div class="csv-preview"><table class="csv-table"><thead><tr><th>Từ</th><th>Nghĩa</th><th>IPA</th></tr></thead><tbody>${preview}</tbody></table></div>${parsed.length > 8 ? `<div class="text-xs text-muted">...và ${parsed.length - 8} từ khác</div>` : ''}` : ''}
       <div class="form-actions">
         <button class="btn btn-ghost" onclick="Modal.close()">Hủy</button>
         <button class="btn btn-primary" id="csv-confirm" ${parsed.length ? '' : 'disabled'}>Nhập ${parsed.length} từ</button>
       </div>`;
     if (parsed.length) $('#csv-confirm').addEventListener('click', async () => {
+      let deckId = $('#csv-target') ? $('#csv-target').value : '__new__';
+      if (deckId === '__new__') {
+        const nm = ($('#csv-new-name') && $('#csv-new-name').value.trim()) || 'Từ vựng nhập vào';
+        const d = await createDeck({ name: nm }); deckId = d.id;
+      }
       const newWords = [], newCards = [];
       parsed.forEach(p => {
         const id = uid('w_');
-        newWords.push({ id, word: p.word, meaning_vi: p.meaning_vi, ipa: '', example: p.example, category: p.category, tags: [], imageUrl: p.image_url });
+        newWords.push({ id, word: p.word, meaning_vi: p.meaning_vi, ipa: p.ipa || '', example: p.example, category: deckId, tags: [], imageUrl: p.image_url });
         newCards.push(newCard(id));
       });
       State.words.push(...newWords); State.cards.push(...newCards);
       await DB.bulkPut('words', newWords); await DB.bulkPut('cards', newCards);
-      reindex(); Modal.close(); this.renderTable(); App.refreshChrome();
+      reindex(); Modal.close(); this.render(); App.refreshChrome();
       toast(`Đã nhập ${newWords.length} từ`, 'success');
     });
   },
@@ -1520,6 +1997,71 @@ function newCard(wordId) {
     id: uid('c_'), wordId, state: 'new', due: Date.now(),
     stability: 0, difficulty: 0, reps: 0, lapses: 0, learningStep: 0, lastReview: null
   };
+}
+
+/* Deck / set helpers */
+async function createDeck({ name, topic, description, color, source, builtinId }) {
+  const deck = {
+    id: uid('deck_'), name: name || 'Set mới', topic: topic || '',
+    description: description || '', color: color || DECK_COLORS[State.decks.length % DECK_COLORS.length],
+    createdAt: Date.now(), source: source || 'user', builtinId: builtinId || null
+  };
+  State.decks.push(deck);
+  await DB.put('decks', deck);
+  return deck;
+}
+
+function deckWords(deckId) { return State.words.filter(w => w.category === deckId); }
+function deckStats(deckId) {
+  const words = deckWords(deckId);
+  const now = Date.now();
+  let mastered = 0, due = 0, newc = 0;
+  words.forEach(w => {
+    const c = State.cardByWord[w.id];
+    if (!c) return;
+    if (isMastered(c)) mastered++;
+    if (c.state === 'new') newc++;
+    else if (c.due <= now) due++;
+  });
+  return { total: words.length, mastered, due, newc };
+}
+
+/* Import a bundled built-in deck (fetch data/*.json → create deck + words + cards) */
+async function importBuiltinDeck(cfg) {
+  if (State.decks.some(d => d.builtinId === cfg.id)) {
+    toast('Bộ này đã được thêm rồi', 'info');
+    return null;
+  }
+  let list;
+  try {
+    const res = await fetch(cfg.file, { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    list = await res.json();
+  } catch (e) {
+    toast('Không tải được dữ liệu — hãy chạy app qua http server (không phải file://)', 'error');
+    return null;
+  }
+  if (!Array.isArray(list) || !list.length) { toast('File dữ liệu trống', 'error'); return null; }
+
+  const deck = await createDeck({
+    name: cfg.name, topic: cfg.topic, description: cfg.description,
+    color: cfg.color, source: 'builtin', builtinId: cfg.id
+  });
+  const words = [], cards = [];
+  list.forEach(w => {
+    const id = uid('w_');
+    words.push({
+      id, word: w.word, meaning_vi: w.meaning_vi || '', ipa: w.ipa || '',
+      example: w.example || '', category: deck.id, tags: [], imageUrl: '',
+      partOfSpeech: w.partOfSpeech || '', meaning_en: w.meaning_en || '', cefr: w.cefr || ''
+    });
+    cards.push(newCard(id));
+  });
+  State.words.push(...words); State.cards.push(...cards);
+  await DB.bulkPut('words', words); await DB.bulkPut('cards', cards);
+  reindex();
+  toast(`Đã thêm "${cfg.name}" (${words.length} từ)`, 'success');
+  return deck;
 }
 
 /* CSV helpers */
@@ -1563,7 +2105,7 @@ const Stats = {
         <div class="chart-card"><div class="chart-title">Dự báo ôn tập (14 ngày tới)</div><div class="chart-canvas-wrap"><canvas id="forecast-chart"></canvas></div></div>
       </div>
       <div class="chart-card">
-        <div class="chart-title">🔥 10 từ khó nhất</div>
+        <div class="chart-title">${I('flame', 16)} 10 từ khó nhất</div>
         <div id="hardest-words"></div>
       </div>`;
     this.renderHeatmap();
@@ -1737,12 +2279,12 @@ const Settings = {
           <div class="settings-section-title">Sao lưu & Dữ liệu</div>
           ${backupWarn ? `<div class="banner banner-warning" style="border-radius:var(--radius-sm);margin-bottom:16px">⚠️ ${daysSince == null ? 'Bạn chưa sao lưu bao giờ' : 'Đã ' + daysSince + ' ngày kể từ lần sao lưu cuối'} — nên sao lưu định kỳ!</div>` : ''}
           <div class="flex gap-3 mb-4" style="flex-wrap:wrap">
-            <button class="btn btn-primary" id="set-export">📤 Xuất dữ liệu (JSON)</button>
-            <button class="btn btn-ghost" id="set-import">📥 Nhập dữ liệu</button>
+            <button class="btn btn-primary" id="set-export">${I('download', 16)} Xuất dữ liệu (JSON)</button>
+            <button class="btn btn-ghost" id="set-import">${I('upload', 16)} Nhập dữ liệu</button>
             <input type="file" id="set-import-file" accept=".json,application/json" style="display:none">
           </div>
           <div class="divider"></div>
-          <button class="btn btn-danger" id="set-reset">🗑 Đặt lại toàn bộ dữ liệu</button>
+          <button class="btn btn-danger" id="set-reset">${I('trash', 16)} Đặt lại toàn bộ dữ liệu</button>
         </div>
       </div>`;
 
@@ -1802,6 +2344,7 @@ const App = {
     reindex();
     this.applyTheme();
     this.bindChrome();
+    hydrateIcons();
     this.detectVoice();
     this.bindConnectivity();
     this.bindKeyboard();
@@ -1825,6 +2368,15 @@ const App = {
     // migrate missing fields
     State.user = Object.assign(defaultUser(), State.user);
     State.user.settings = Object.assign(defaultUser().settings, State.user.settings || {});
+    // Migrate decks that predate topic/color/createdAt fields
+    let migrated = false;
+    State.decks.forEach((d, i) => {
+      if (d.createdAt == null) { d.createdAt = SEED_BASE_TS + i * 1000; migrated = true; }
+      if (!d.color) { d.color = DECK_COLORS[i % DECK_COLORS.length]; migrated = true; }
+      if (d.topic == null) { d.topic = ''; migrated = true; }
+      if (d.source == null) { d.source = 'user'; migrated = true; }
+    });
+    if (migrated) await DB.bulkPut('decks', State.decks);
   },
 
   async seed() {
@@ -1844,7 +2396,7 @@ const App = {
   onboarding() {
     Modal.open(`
       <div class="onboarding">
-        <div class="onboarding-emoji">📚</div>
+        <img src="public/logo.png" class="onboarding-logo" alt="VocabMaster">
         <div class="onboarding-title">Chào mừng đến VocabMaster!</div>
         <div class="onboarding-desc">Học từ vựng tiếng Anh hiệu quả với phương pháp lặp lại ngắt quãng (FSRS) và luyện phát âm bằng giọng nói.</div>
         <div class="feature-list">
@@ -1855,16 +2407,19 @@ const App = {
         </div>
         <div class="form-actions" style="justify-content:center;flex-direction:column;gap:10px">
           <button class="btn btn-primary btn-lg btn-full" id="onb-start">🚀 Bắt đầu học ngay</button>
+          <button class="btn btn-accent btn-full" id="onb-catalog">📚 Chọn bộ từ vựng (Oxford, TOEIC…)</button>
           <button class="btn btn-ghost btn-full" id="onb-config">Cài đặt mục tiêu</button>
         </div>
       </div>`);
-    const finish = async (goStudy) => {
+    const finish = async (dest) => {
       State.user.onboarded = true; await saveUser();
       Modal.close();
-      Router.go(goStudy ? 'study' : 'settings');
+      if (dest === 'catalog') { Router.go('library'); setTimeout(() => Library.catalogDialog(), 100); }
+      else Router.go(dest);
     };
-    $('#onb-start').addEventListener('click', () => finish(true));
-    $('#onb-config').addEventListener('click', () => finish(false));
+    $('#onb-start').addEventListener('click', () => finish('study'));
+    $('#onb-catalog').addEventListener('click', () => finish('catalog'));
+    $('#onb-config').addEventListener('click', () => finish('settings'));
   },
 
   applyTheme() {
