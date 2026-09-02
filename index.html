@@ -2,10 +2,15 @@
 <html lang="vi" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="theme-color" content="#0F172A">
   <meta name="description" content="VocabMaster - Học từ vựng tiếng Anh hiệu quả với phương pháp lặp lại ngắt quãng">
   <title>VocabMaster</title>
+  <link rel="icon" type="image/png" href="public/logo.png">
+  <link rel="apple-touch-icon" href="public/logo.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,15 +22,18 @@
     <!-- System banners -->
     <div id="banners">
       <div id="offline-banner" class="banner banner-warning hidden">
-        <span>📡 Đang offline — tất cả tính năng học vẫn hoạt động bình thường</span>
+        <span class="banner-icon" data-icon="wifi-off" data-icon-size="18"></span>
+        <span>Đang offline — tất cả tính năng học vẫn hoạt động bình thường</span>
         <button class="banner-close" onclick="this.parentElement.classList.add('hidden')">✕</button>
       </div>
       <div id="voice-banner" class="banner banner-info hidden">
-        <span>🎤 Trình duyệt không hỗ trợ nhận giọng nói — đã chuyển sang chế độ nhập chữ</span>
+        <span class="banner-icon" data-icon="mic-off" data-icon-size="18"></span>
+        <span>Trình duyệt không hỗ trợ nhận giọng nói — đã chuyển sang chế độ nhập chữ</span>
         <button class="banner-close" onclick="this.parentElement.classList.add('hidden')">✕</button>
       </div>
       <div id="update-banner" class="banner banner-success hidden">
-        <span>🔄 Phiên bản mới có sẵn</span>
+        <span class="banner-icon" data-icon="refresh-cw" data-icon-size="18"></span>
+        <span>Phiên bản mới có sẵn</span>
         <button class="btn btn-xs btn-primary ml-2" onclick="App.updateSW()">Cập nhật</button>
         <button class="banner-close" onclick="this.parentElement.classList.add('hidden')">✕</button>
       </div>
@@ -35,30 +43,30 @@
     <nav id="sidebar">
       <div class="sidebar-header">
         <div class="logo">
-          <span class="logo-icon">📚</span>
+          <img class="logo-icon" src="public/logo.png" alt="VocabMaster">
           <span class="logo-text">VocabMaster</span>
         </div>
       </div>
       <ul class="nav-list" id="sidebar-nav">
         <li class="nav-item active" data-view="dashboard">
-          <span class="nav-icon">🏠</span>
+          <span class="nav-icon" data-icon="home"></span>
           <span class="nav-label">Trang chủ</span>
         </li>
         <li class="nav-item" data-view="study">
-          <span class="nav-icon">🧠</span>
+          <span class="nav-icon" data-icon="graduation-cap"></span>
           <span class="nav-label">Học bài</span>
           <span class="nav-badge" id="study-badge">0</span>
         </li>
         <li class="nav-item" data-view="library">
-          <span class="nav-icon">📖</span>
+          <span class="nav-icon" data-icon="book-open"></span>
           <span class="nav-label">Thư viện từ</span>
         </li>
         <li class="nav-item" data-view="stats">
-          <span class="nav-icon">📊</span>
+          <span class="nav-icon" data-icon="bar-chart"></span>
           <span class="nav-label">Thống kê</span>
         </li>
         <li class="nav-item" data-view="settings">
-          <span class="nav-icon">⚙️</span>
+          <span class="nav-icon" data-icon="settings"></span>
           <span class="nav-label">Cài đặt</span>
         </li>
       </ul>
@@ -73,7 +81,7 @@
           </div>
         </div>
         <div class="streak-mini" id="sidebar-streak">
-          <span>🔥</span><span id="sidebar-streak-count">0</span>
+          <span data-icon="flame" data-icon-size="16"></span><span id="sidebar-streak-count">0</span>
         </div>
       </div>
     </nav>
@@ -90,23 +98,23 @@
     <!-- Bottom navigation (mobile) -->
     <nav id="bottom-nav">
       <button class="bottom-nav-item active" data-view="dashboard">
-        <span class="bnav-icon">🏠</span>
+        <span class="bnav-icon" data-icon="home" data-icon-size="22"></span>
         <span class="bnav-label">Trang chủ</span>
       </button>
       <button class="bottom-nav-item" data-view="study">
-        <span class="bnav-icon">🧠</span>
+        <span class="bnav-icon" data-icon="graduation-cap" data-icon-size="22"></span>
         <span class="bnav-label">Học</span>
       </button>
       <button class="bottom-nav-item" data-view="library">
-        <span class="bnav-icon">📖</span>
+        <span class="bnav-icon" data-icon="book-open" data-icon-size="22"></span>
         <span class="bnav-label">Từ điển</span>
       </button>
       <button class="bottom-nav-item" data-view="stats">
-        <span class="bnav-icon">📊</span>
+        <span class="bnav-icon" data-icon="bar-chart" data-icon-size="22"></span>
         <span class="bnav-label">Thống kê</span>
       </button>
       <button class="bottom-nav-item" data-view="settings">
-        <span class="bnav-icon">⚙️</span>
+        <span class="bnav-icon" data-icon="settings" data-icon-size="22"></span>
         <span class="bnav-label">Cài đặt</span>
       </button>
     </nav>
